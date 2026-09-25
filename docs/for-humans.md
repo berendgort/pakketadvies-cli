@@ -2,22 +2,21 @@
 
 ## Wat dit is
 
-Een hulpmiddel bij Zorginstituut Nederland (ZIN) pakketadviezen over
-geneesmiddelen. Je vraagt iets in gewone taal. Je AI zoekt in deze
-database en zegt welk argument je kunt hergebruiken, uit welk dossier,
-op welke datum.
+Pakketadvies helpt bij Zorginstituut Nederland (ZIN) pakketadviezen over
+geneesmiddelen. Jij vraagt in gewone taal welk argument je kunt hergebruiken,
+uit welk dossier, op welke datum — zonder de Excel te openen en zonder iets te
+installeren.
 
-Je hoeft de Excel niet te openen. Je hoeft geen programma te installeren.
+## Wat jij doet (Path A)
 
-## Wat jij doet
-
-1. Kopieer de link: `https://github.com/berendgort/pakketadvies`
-2. Plak die in Cursor, Claude, of een andere AI die een GitHub-repo kan openen
+1. Kopieer: `https://github.com/berendgort/pakketadvies`
+2. Plak die link in Cursor, Claude, of een andere AI die een GitHub-repo kan openen
 3. Stel je vraag, bijvoorbeeld:
    - "Wanneer gebruikte ZIN voor het eerst een extern controlecohort?"
    - "Welk precedent past bij single-arm data in de derde lijn?"
    - "Laat ARG-0001 zien"
-4. Lees het antwoord: eerst het oordeel (cite / thin / none), dan dossier en datum
+4. Lees het antwoord: eerst het oordeel (`cite` / `thin` / `none` / `ambiguous`),
+   dan dossier en datum
 
 ## Wat jij niet doet
 
@@ -32,5 +31,6 @@ AGENTS.md / instruct*. Dat is het contract.
 
 ## Wat de AI moet doen
 
-De AI volgt [AGENTS.md](../AGENTS.md) en `./pakket instruct --json`:
-runtime regelen, daarna `cite`, daarna in mensentaal antwoorden.
+De AI volgt [AGENTS.md](../AGENTS.md) en start elke sessie met
+`./pakket instruct --json`, daarna `./pakket cite "…" --json`, en antwoordt in
+mensentaal. Jij hoeft die commando’s niet te kennen.

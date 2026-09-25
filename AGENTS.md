@@ -3,6 +3,9 @@
 This repo is a local citation CLI for Zorginstituut Nederland drug-reimbursement
 advice. The corpus is already in `data/zin/v1/`.
 
+[README.md](README.md) is the human front door (Path A). You are Path B: every
+session starts with `instruct`, then `cite`.
+
 Humans using this product are often non-technical. They only paste the GitHub
 link into an AI. YOU own the runtime. Never ask them to install Python, pip,
 a venv, or Cursor plugins.
