@@ -1,7 +1,7 @@
 {
   "as_of": "2026-09-24",
   "bundle_dir": "assets/zin/bundles/gvs",
-  "dossier_count": 207,
+  "dossier_count": 287,
   "dossiers": {
     "GVS-101": {
       "bron_url": "https://www.zorginstituutnederland.nl/documenten/2015/03/12/gvs-advies-dulaglutide-trulicity-bij-diabetes-mellitus-type-2",
@@ -1923,6 +1923,1286 @@
       "zip": "ZIN_lijst_GVS_deel3_20260924.zip",
       "zips": [
         "ZIN_lijst_GVS_deel3_20260924.zip"
+      ]
+    },
+    "GVS-225": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/04/29/gvs-advies-elexacaftor-tezacaftor-ivacaftor-kaftrio-in-combinatie-met-ivacaftor-kalydeco",
+      "duplicate": false,
+      "id": "GVS-225",
+      "members": [
+        "Brief aan minister voor MZS over GVS-advies elexacaftor-tezacaftor-ivacaftor (Kaftrio) in combinatie met ivacaftor (Kalydeco).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan minister voor MZS over GVS-advies elexacaftor-tezacaftor-ivacaftor (Kaftrio) in combinatie met ivacaftor (Kalydeco).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-226": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/05/04/gvs-advies-inclisiran-leqvio",
+      "duplicate": false,
+      "id": "GVS-226",
+      "members": [
+        "Brief minister MZS over GVS-advies inclisiran - Leqvio.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief minister MZS over GVS-advies inclisiran - Leqvio.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-227": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/05/12/gvs-advies-uitbreiding-bijlage-2-voorwaarden-voor-dapagliflozine-forxiga",
+      "duplicate": false,
+      "id": "GVS-227",
+      "members": [
+        "Brief minister MSZ over uitbreiding nadere voorwaarde dapagliflozine - Forxiga.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief minister MSZ over uitbreiding nadere voorwaarde dapagliflozine - Forxiga.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-228": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/05/25/gvs-advies-ivacaftor-kalydeco-uitbreiding-bijlage-2",
+      "duplicate": false,
+      "id": "GVS-228",
+      "members": [
+        "GVS-advies uitbreiding bijlage 2-voorwaarden Ivacaftor (Kadydeco) voor CF-patiënten.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies uitbreiding bijlage 2-voorwaarden Ivacaftor (Kadydeco) voor CF-patiënten.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-229": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/06/08/gvs-advies-avatrombopag-doptelet",
+      "duplicate": false,
+      "id": "GVS-229",
+      "members": [
+        "Brief aan minister voor Minister voor Medische Zorg en Sport betreft GVS advies Doptelet®.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan minister voor Minister voor Medische Zorg en Sport betreft GVS advies Doptelet®.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-230": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/06/08/gvs-advies-vocabria-en-rekambys",
+      "duplicate": false,
+      "id": "GVS-230",
+      "members": [
+        "Brief aan de minister voor Medische Zorg en Sport betreftGVS-advies Vocabria® en Rekambys®.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan de minister voor Medische Zorg en Sport betreftGVS-advies Vocabria® en Rekambys®.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-231": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/06/14/gvs-advies-osilodrostat-isturisa",
+      "duplicate": false,
+      "id": "GVS-231",
+      "members": [
+        "Brief aan de minister voor Medische Zorg en Sport betreft GVS-advies osilodrostat (Isturisa).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan de minister voor Medische Zorg en Sport betreft GVS-advies osilodrostat (Isturisa).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-232": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/06/14/gvs-advies-shingrix",
+      "duplicate": false,
+      "id": "GVS-232",
+      "members": [
+        "Brief aan de minister voor Medische Zorg en Sport betreft GVS advies Shingrix®.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan de minister voor Medische Zorg en Sport betreft GVS advies Shingrix®.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-233": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/06/22/gvs-advies-sglt-2-remmers-uitbreiding-bijlage-2",
+      "duplicate": false,
+      "id": "GVS-233",
+      "members": [
+        "Brief aan de minister voor Medische Zorg en Sport betreft GVS-advies SGLT-2 remmers.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan de minister voor Medische Zorg en Sport betreft GVS-advies SGLT-2 remmers.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-234": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/07/01/gvs-advies-calcifediol-hidroferol",
+      "duplicate": false,
+      "id": "GVS-234",
+      "members": [
+        "Brief minister MZS over GVS beoordeling calcifediol Hidroferol.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief minister MZS over GVS beoordeling calcifediol Hidroferol.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-235": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/07/05/gvs-advies-mavenclad---uitbreiding-nadere-voorwaarden",
+      "duplicate": false,
+      "id": "GVS-235",
+      "members": [
+        "Brief aan de minister voor Medische Zorg en Sport betreft GVSadvies cladribine Mavenclad.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan de minister voor Medische Zorg en Sport betreft GVSadvies cladribine Mavenclad.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-236": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/07/21/gvs-advies-subcutaan-buprenorfine-buvidal",
+      "duplicate": false,
+      "id": "GVS-236",
+      "members": [
+        "Brief aan de minister voor Medische Zorg en Sport betreft GVS-advies subcutaan buprenorfine (Buvidal).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan de minister voor Medische Zorg en Sport betreft GVS-advies subcutaan buprenorfine (Buvidal).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-237": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/07/26/gvs-advies-ferrimaltol-feraccru",
+      "duplicate": false,
+      "id": "GVS-237",
+      "members": [
+        "GVS advies ferrimaltol Feraccru.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS advies ferrimaltol Feraccru.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-238": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/08/11/gvs-advies-tafamidis-vyndaqel-bij-de-behandeling-van-attr-cm",
+      "duplicate": false,
+      "id": "GVS-238",
+      "members": [
+        "Brief aan minister MZS over GVS advies herbeoordeling tafamidis (Vyndaqel).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan minister MZS over GVS advies herbeoordeling tafamidis (Vyndaqel).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-239": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/08/31/gvs-advies-drospirenon-estetrol-drovelis",
+      "duplicate": false,
+      "id": "GVS-239",
+      "members": [
+        "Brief aan minister voor Medische Zorg en Sport betreft GVS-advies drospirenon - estetrol (Drovelis).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan minister voor Medische Zorg en Sport betreft GVS-advies drospirenon - estetrol (Drovelis).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-240": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/09/03/gvs-advies-roxadustat-evrenzo",
+      "duplicate": false,
+      "id": "GVS-240",
+      "members": [
+        "GVS-advies roxadustat (Evrenzo).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies roxadustat (Evrenzo).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-241": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/09/17/gvs-advies-cgrp-remmers",
+      "duplicate": false,
+      "id": "GVS-241",
+      "members": [
+        "GVS-advies CGRP-remmers erenumab, fremanezumab, galcanezumab (Aimovig, Emgality, AJOVY) bij de profylaxe van therapieresistente chronische migrain.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies CGRP-remmers erenumab, fremanezumab, galcanezumab (Aimovig, Emgality, AJOVY) bij de profylaxe van therapieresistente chronische migrain.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-243": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/09/20/gvs-advies-sglt-2-remmers-extra-uitbreiding-bijlage-2",
+      "duplicate": false,
+      "id": "GVS-243",
+      "members": [
+        "Extra uitbreiding GVS advies SGLT2-remmers bij patienten met DM2 en hoog risico op HVZ.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Extra uitbreiding GVS advies SGLT2-remmers bij patienten met DM2 en hoog risico op HVZ.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-244": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/09/29/gvs-advies-levomepromazine-nozinan",
+      "duplicate": false,
+      "id": "GVS-244",
+      "members": [
+        "Brief aan de Staatssecretaris van Volksgezondheid, Welzijn en Sport betreft GVS beoordeling levomepromazine Nozinan.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan de Staatssecretaris van Volksgezondheid, Welzijn en Sport betreft GVS beoordeling levomepromazine Nozinan.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-245": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/10/21/gvs-advies-empagliflozine-jardiance",
+      "duplicate": false,
+      "id": "GVS-245",
+      "members": [
+        "Brief aan de staatssecretaris van Volksgezondheid Welzijn en Sport betreft GVS beoordeling empagliflozine (Jardiance).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan de staatssecretaris van Volksgezondheid Welzijn en Sport betreft GVS beoordeling empagliflozine (Jardiance).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-246": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/10/26/gvs-advies-ponesimod-ponvory",
+      "duplicate": false,
+      "id": "GVS-246",
+      "members": [
+        "GVS-advies ponesimod (Ponvory®) bij recidiverende vormen van multiple sclerose (RMS).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies ponesimod (Ponvory®) bij recidiverende vormen van multiple sclerose (RMS).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-247": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/11/02/gvs-advies-lecigon-bij-parkinson",
+      "duplicate": false,
+      "id": "GVS-247",
+      "members": [
+        "GVS advies Lecigon bij Parkinson.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS advies Lecigon bij Parkinson.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-249": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/12/01/gvs-advies-tirbanibuline-klisyri",
+      "duplicate": false,
+      "id": "GVS-249",
+      "members": [
+        "GVS-advies gtribanibuline (Klisyri).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies gtribanibuline (Klisyri).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-250": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/12/01/gvs-advies-fostemsavir-rukobia-bij-hiv-1-infectie",
+      "duplicate": false,
+      "id": "GVS-250",
+      "members": [
+        "GVS-beoordeling Rukobia (fostemsavir).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-beoordeling Rukobia (fostemsavir).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-251": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2021/12/21/gvs-advies-tezacaftor-ivacaftor-symkevi-en-ivacaftor-kalydeco-extra-uitbreiding-bijlage-2",
+      "duplicate": false,
+      "id": "GVS-251",
+      "members": [
+        "Briefrapport tezacaftor ivacaftor (Symkevi®) icm ivacaftor (Kalydeco®) rectificatie.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Briefrapport tezacaftor ivacaftor (Symkevi®) icm ivacaftor (Kalydeco®) rectificatie.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-252": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/01/13/gvs-advies-volanesorsen-waylivra",
+      "duplicate": false,
+      "id": "GVS-252",
+      "members": [
+        "Brief aan minister van VWS met GVS advies volanesorsen (Waylivra).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan minister van VWS met GVS advies volanesorsen (Waylivra).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-253": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/02/10/gvs-advies-ofatumumab-kesimpta",
+      "duplicate": false,
+      "id": "GVS-253",
+      "members": [
+        "GVS-advies ofatumumab (Kesimpta®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies ofatumumab (Kesimpta®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-254": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/02/22/gvs-advies-cenobamaat-ontozry",
+      "duplicate": false,
+      "id": "GVS-254",
+      "members": [
+        "GVS-advies cenobamaat (Ontozry®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies cenobamaat (Ontozry®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-255": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/02/24/gvs-advies-liraglutide-saxenda",
+      "duplicate": false,
+      "id": "GVS-255",
+      "members": [
+        "brief-minister-van-vws-over-gvs-advies-liraglutide-saxenda.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "brief-minister-van-vws-over-gvs-advies-liraglutide-saxenda.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-256": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/02/24/gvs-advies-vericiguat-verquvo",
+      "duplicate": false,
+      "id": "GVS-256",
+      "members": [
+        "GVS-advies vericiguat (Verquvo®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies vericiguat (Verquvo®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-257": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/03/22/gvs-advies-elexacaftor-tezacaftor-ivacaftor-kaftrio-met-ivacaftor-kalydeco",
+      "duplicate": false,
+      "id": "GVS-257",
+      "members": [
+        "GVS-advies elexacaftor-tezacaftor-ivacaftor (Kaftrio) in combinatie met ivacaftor (Kalydeco) - uitbreiding nadere voorwaarden.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies elexacaftor-tezacaftor-ivacaftor (Kaftrio) in combinatie met ivacaftor (Kalydeco) - uitbreiding nadere voorwaarden.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-258": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/03/28/gvs-advies-dapagliflozine-forxiga-bij-chronische-nierschade",
+      "duplicate": false,
+      "id": "GVS-258",
+      "members": [
+        "Gecorrigeerde brief aan minister van VWS over uitbreiding nadere voorwaarden dapagliflozine (Forxiga).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Gecorrigeerde brief aan minister van VWS over uitbreiding nadere voorwaarden dapagliflozine (Forxiga).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-259": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/04/04/gvs-advies-finerenon-kerendia",
+      "duplicate": false,
+      "id": "GVS-259",
+      "members": [
+        "GVS-advies finerenon (Kerendia).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies finerenon (Kerendia).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-260": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/04/20/gvs-advies-avacopan-tavneos",
+      "duplicate": false,
+      "id": "GVS-260",
+      "members": [
+        "GVS-advies avacopan (Tavneos®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies avacopan (Tavneos®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-261": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/04/21/gvs-beoordeling-ivermectine-stromectol",
+      "duplicate": false,
+      "id": "GVS-261",
+      "members": [
+        "GVS-advies ivermectine (Stromectol) bij scabiës.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies ivermectine (Stromectol) bij scabiës.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-262": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/04/25/gvs-advies-dabigatran-pradaxa-uitbreiding-nadere-voorwaarden",
+      "duplicate": false,
+      "id": "GVS-262",
+      "members": [
+        "GVS-advies dabigatran (Pradaxa) uitbreiding nadere voorwaarden.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies dabigatran (Pradaxa) uitbreiding nadere voorwaarden.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-263": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/05/10/gvs-advies-pitolisant-ozawade",
+      "duplicate": false,
+      "id": "GVS-263",
+      "members": [
+        "GVS-advies pitolisant (Ozawade®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies pitolisant (Ozawade®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-264": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/05/16/gvs-advies-glp-1-receptor-agonisten",
+      "duplicate": false,
+      "id": "GVS-264",
+      "members": [
+        "Brief aan de minister van Volksgezondheid Welzijn en Sport betreft GVS advies GLP-1 receptor agonisten uitbreiding nadere voorwaarden.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan de minister van Volksgezondheid Welzijn en Sport betreft GVS advies GLP-1 receptor agonisten uitbreiding nadere voorwaarden.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-265": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/05/17/gvs-advies-naltrexon-in-combinatie-met-bupropion-mysimba",
+      "duplicate": false,
+      "id": "GVS-265",
+      "members": [
+        "bron.txt",
+        "gvs-advies-naltrexon-in-combinatie-met-bupropion-mysimba-voor-de-behandeling-van-obesitas.pdf"
+      ],
+      "pdfs": [
+        "gvs-advies-naltrexon-in-combinatie-met-bupropion-mysimba-voor-de-behandeling-van-obesitas.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-266": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/06/20/gvs-advieselexacaftor-tezacaftor-ivacaftor-kaftrio-met-ivacaftor-kalydeco-uitbreiding-nadere-voorwaarden",
+      "duplicate": false,
+      "id": "GVS-266",
+      "members": [
+        "Brief aan het ministerie voor Volksgezondheid, Welzijn en Sport betreft elexacaftortezacaftorivacaftor (Kaftrio®) met ivacaftor (Kalydeco®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan het ministerie voor Volksgezondheid, Welzijn en Sport betreft elexacaftortezacaftorivacaftor (Kaftrio®) met ivacaftor (Kalydeco®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel4_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel4_20260924.zip"
+      ]
+    },
+    "GVS-268": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/07/04/gvs-advies-cannabidiol-epidyolex",
+      "duplicate": false,
+      "id": "GVS-268",
+      "members": [
+        "GVS-advies cannabidiol (Epidyolex®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies cannabidiol (Epidyolex®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-269": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/07/05/gvs-advies-bempedoinezuur-nilemdo",
+      "duplicate": false,
+      "id": "GVS-269",
+      "members": [
+        "bron.txt",
+        "gvs-advies-bempedo-nezuur-nilemdo.pdf"
+      ],
+      "pdfs": [
+        "gvs-advies-bempedo-nezuur-nilemdo.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-270": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/07/08/gvs-advies-setmelanotide-imcivree",
+      "duplicate": false,
+      "id": "GVS-270",
+      "members": [
+        "Brief aan de minister van Volksgezondheid Welzijn en Sport betreft GVS advies setmelanotide (Imcivree).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan de minister van Volksgezondheid Welzijn en Sport betreft GVS advies setmelanotide (Imcivree).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-271": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/07/08/gvs-advies-herbeoordeling-metreleptine-myalepta",
+      "duplicate": false,
+      "id": "GVS-271",
+      "members": [
+        "Brief aan de minister van Volksgezondheid, Welzijn en Sport betreft GVS-advies herbeoordeling metreleptine (Myalepta).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan de minister van Volksgezondheid, Welzijn en Sport betreft GVS-advies herbeoordeling metreleptine (Myalepta).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-272": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/07/21/gvs-advies-herbeoordeling-testosteronundecanoaat-nebido",
+      "duplicate": false,
+      "id": "GVS-272",
+      "members": [
+        "GVS herbeoordelingsrapport testosteronundecanoaat (Nebido).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS herbeoordelingsrapport testosteronundecanoaat (Nebido).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-274": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/09/22/gvs-advies-lenacapavir-sunlenca",
+      "duplicate": false,
+      "id": "GVS-274",
+      "members": [
+        "GVS-beoordeling lenacapavir (Sunlenca®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-beoordeling lenacapavir (Sunlenca®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-275": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/10/17/evaluatie-voorwaarden-voor-de-vergoeding-van-fampridine-fampyra",
+      "duplicate": false,
+      "id": "GVS-275",
+      "members": [
+        "Evaluatie en herbeoordeling nadere voorwaarden fampridine (Fampyra).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Evaluatie en herbeoordeling nadere voorwaarden fampridine (Fampyra).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-276": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/10/19/gvs-advies-relugolix-in-combinatie-met-estradiol-en-norethisteronacetaat-ryeqo",
+      "duplicate": false,
+      "id": "GVS-276",
+      "members": [
+        "GVS-advies relugolix in combinatie met estradiol en norethisteronacetaat (Ryeqo®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies relugolix in combinatie met estradiol en norethisteronacetaat (Ryeqo®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-277": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/10/25/gvs-advies-natalizumab-sc-tysabri",
+      "duplicate": false,
+      "id": "GVS-277",
+      "members": [
+        "GVS-advies natalizumab SC (Tysabri®) bij de behandeling van RRMS bij volwassenen met zeer actieve ziekte.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies natalizumab SC (Tysabri®) bij de behandeling van RRMS bij volwassenen met zeer actieve ziekte.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-278": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/10/27/gvs-advies-nirmatrelvir-ritonavir-paxlovid",
+      "duplicate": false,
+      "id": "GVS-278",
+      "members": [
+        "Brief aan de minister van Volksgezondheid, Welzijn en Sport betreft nirmatrelvir-ritonavir (Paxlovid®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan de minister van Volksgezondheid, Welzijn en Sport betreft nirmatrelvir-ritonavir (Paxlovid®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-279": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/11/10/gvs-advies-300-ir-hdm-actair",
+      "duplicate": false,
+      "id": "GVS-279",
+      "members": [
+        "GVS-advies sublinguaal toegediend huisstofmijtextract 300 IR HDM (Actair®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies sublinguaal toegediend huisstofmijtextract 300 IR HDM (Actair®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-280": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/11/24/gvs-advies-baloxavir-marboxil-xofluza",
+      "duplicate": false,
+      "id": "GVS-280",
+      "members": [
+        "GVS-advies baloxavir marboxil (Xofluza®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies baloxavir marboxil (Xofluza®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-281": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/11/29/gvs-advies-doxylaminesuccinaat-pyridoxinehydrochloride-xonvea",
+      "duplicate": false,
+      "id": "GVS-281",
+      "members": [
+        "GVS-advies doxylaminesuccinaat-pyridoxinehydrochloride (Xonvea®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies doxylaminesuccinaat-pyridoxinehydrochloride (Xonvea®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-282": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/12/06/gvs-advies-fostamatinib-tavlesse",
+      "duplicate": false,
+      "id": "GVS-282",
+      "members": [
+        "GVS-advies fostamatinib (Tavlesse®) voor de behandeling van chronische immuun trombocytopenie (ITP).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies fostamatinib (Tavlesse®) voor de behandeling van chronische immuun trombocytopenie (ITP).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-283": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2022/12/23/gvs-advies-solriamfetol-sunosi",
+      "duplicate": false,
+      "id": "GVS-283",
+      "members": [
+        "GVS-advies solriamfetol (Sunsosi®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies solriamfetol (Sunsosi®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-284": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/01/18/gvs-advies-odevixibat-bylvay",
+      "duplicate": false,
+      "id": "GVS-284",
+      "members": [
+        "Brief aan de minister van Volksgezondheid Welzijn en Sport betreft GVS-advies odevixibat (Bylvay).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan de minister van Volksgezondheid Welzijn en Sport betreft GVS-advies odevixibat (Bylvay).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-285": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/01/25/gvs-advies-pcv15-vaxneuvance",
+      "duplicate": false,
+      "id": "GVS-285",
+      "members": [
+        "Brief aan de minister van Volksgezondheid Welzijn en Sport betreft GVS-advies PCV15 (Vaxneuvance).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan de minister van Volksgezondheid Welzijn en Sport betreft GVS-advies PCV15 (Vaxneuvance).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-286": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/01/25/gvs-advies-dexamethason-levofloxacine-ducressa",
+      "duplicate": false,
+      "id": "GVS-286",
+      "members": [
+        "GVS-advies dexamethason-levofloxacine oogdruppels (Ducressa®) voor gebruik na staaroperaties bij volwassenen.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies dexamethason-levofloxacine oogdruppels (Ducressa®) voor gebruik na staaroperaties bij volwassenen.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-287": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/01/31/gvs-advies-empagliflozine-jardiance",
+      "duplicate": false,
+      "id": "GVS-287",
+      "members": [
+        "GVS-advies uitbreiding nadere voorwaarden empagliflozine (Jardiance®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies uitbreiding nadere voorwaarden empagliflozine (Jardiance®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-288": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/02/01/gvs-advies-patiromeer-veltassa",
+      "duplicate": false,
+      "id": "GVS-288",
+      "members": [
+        "GVS-advies vervallen nadere voorwaarden patiromeer (Veltassa®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies vervallen nadere voorwaarden patiromeer (Veltassa®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-289": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/02/15/gvs-advies-icosapent-ethyl-vazkepa",
+      "duplicate": false,
+      "id": "GVS-289",
+      "members": [
+        "GVS-advies icosapent-ethyl (Vazkepa®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies icosapent-ethyl (Vazkepa®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-290": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/02/22/gvs-advies-lasmiditan-rayvow",
+      "duplicate": false,
+      "id": "GVS-290",
+      "members": [
+        "Brief aan de minister van Volksgezondheid Welzijn en Sport betreft GVS-advies lasmiditan (Rayvow).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan de minister van Volksgezondheid Welzijn en Sport betreft GVS-advies lasmiditan (Rayvow).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-291": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/03/08/gvs-advies-mifepriston-mifegyne",
+      "duplicate": false,
+      "id": "GVS-291",
+      "members": [
+        "Brief aan de minister van Volksgezondheid Welzijn en Sport betreft GVS advies mifepriston (Mifegyne).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan de minister van Volksgezondheid Welzijn en Sport betreft GVS advies mifepriston (Mifegyne).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-292": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/04/17/pakketadvies-evolocumab-repatha-en-alirocumab-praluent-bij-hypercholesterolemie",
+      "duplicate": false,
+      "id": "GVS-292",
+      "members": [
+        "GVS-advies evolocumab (Repatha®) en alirocumab (Praluent®) bij de behandeling van hypocholesterolemie.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies evolocumab (Repatha®) en alirocumab (Praluent®) bij de behandeling van hypocholesterolemie.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-293": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/04/28/gvs-advies-sacubitril-valsartan-entresto-bijlage-2-voorwaarden",
+      "duplicate": false,
+      "id": "GVS-293",
+      "members": [
+        "GVS-advies uitbreiding bijlage 2-voorwaarden sacubitril-valsarten (Entresto®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies uitbreiding bijlage 2-voorwaarden sacubitril-valsarten (Entresto®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-294": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/04/28/gvs-advies-lanadelumab-takhzyro",
+      "duplicate": false,
+      "id": "GVS-294",
+      "members": [
+        "GVS-advies lanadelumab (Takhzyro®) voor het voorkomen van terugkerende aanvallen van hereditair angio-oedeem (HAE).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies lanadelumab (Takhzyro®) voor het voorkomen van terugkerende aanvallen van hereditair angio-oedeem (HAE).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-295": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/05/12/gvs-advies-vericiguat-verquvo",
+      "duplicate": false,
+      "id": "GVS-295",
+      "members": [
+        "Brief aan de minister van Volksgezondheid Welzijn en Sport betreft GVS-advies vericiguat (Verquvo).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan de minister van Volksgezondheid Welzijn en Sport betreft GVS-advies vericiguat (Verquvo).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-296": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/05/23/gvs-advies-dapagliflozine-forxiga-uitbreiding-bijlage-2-voorwaarden",
+      "duplicate": false,
+      "id": "GVS-296",
+      "members": [
+        "GVS-advies dapagliflozine (Forxiga®) uitbreiding bijlage 2-voorwaarden.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies dapagliflozine (Forxiga®) uitbreiding bijlage 2-voorwaarden.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-297": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/06/02/gvs-advies-hepatitis-b-vaccin-prehevbri-voor-de-actieve-immunisatie-tegen-hepatitis-b-bij-volwassenen",
+      "duplicate": false,
+      "id": "GVS-297",
+      "members": [
+        "GVS-advies hepatitis B-vaccin (PreHevbri®) voor de actieve immunisatie tegen hepatitis B bij volwassenen.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies hepatitis B-vaccin (PreHevbri®) voor de actieve immunisatie tegen hepatitis B bij volwassenen.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-298": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/06/15/gvs-advies-avacopan-tavneos-bij-de-behandeling-van-bepaalde-patienten-met-granulaomatose-met-polyangiitis-gpa-of-microscopische-polyangiitis-mpa",
+      "duplicate": false,
+      "id": "GVS-298",
+      "members": [
+        "GVS-advies avacopan (Tavneos®) bij de behandeling van bepaalde patiënten met GPA of MPA.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies avacopan (Tavneos®) bij de behandeling van bepaalde patiënten met GPA of MPA.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-299": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/07/11/gvs-advies-subcutane-cgrp-remmers-uitbreiding-bijlage-2-voorwaarden",
+      "duplicate": false,
+      "id": "GVS-299",
+      "members": [
+        "Brief aan minister van VWS met GVS-advies Uitbreiding nadere voorwaarde CGRP-remmers Almovig (erenumab( Emgality (galcanezumab) en Ajovy (fremanez.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Brief aan minister van VWS met GVS-advies Uitbreiding nadere voorwaarde CGRP-remmers Almovig (erenumab( Emgality (galcanezumab) en Ajovy (fremanez.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-300": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/07/13/aanvullend-gvs-advies-nirmatrelvir-ritonavir-paxlovid-voor-de-behandeling-van-covid-19",
+      "duplicate": false,
+      "id": "GVS-300",
+      "members": [
+        "Aanvullend GVS-advies nirmatrelvir-ritonavir (Paxlovid®) voor debehandeling van COVID-19.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "Aanvullend GVS-advies nirmatrelvir-ritonavir (Paxlovid®) voor debehandeling van COVID-19.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-301": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/07/19/gvs-advies-kaliumcitraat-en-kaliumwaterstofcarbonaat-sibnayal",
+      "duplicate": false,
+      "id": "GVS-301",
+      "members": [
+        "GVS-advies kaliumcitraat en kaliumwaterstofcarbonaat (Sibnayal®) voor de behandeling van distale renale tubulaire acidose (dRTA).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies kaliumcitraat en kaliumwaterstofcarbonaat (Sibnayal®) voor de behandeling van distale renale tubulaire acidose (dRTA).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-302": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/07/28/gvs-advies-glucagon-ogluo-voor-de-behandeling-van-ernstige-hypoglykemie-bij-volwassenen-en-kinderen-vanaf-2-jaar",
+      "duplicate": false,
+      "id": "GVS-302",
+      "members": [
+        "GVS-advies glucagon (Ogluo®) voor de behandeling van ernstige hypoglykemie bij volwassenen en kinderen vanaf 2 jaar.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies glucagon (Ogluo®) voor de behandeling van ernstige hypoglykemie bij volwassenen en kinderen vanaf 2 jaar.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-303": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/08/14/gvs-advies-tirzepatide-mounjaro-voor-de-behandeling-van-patienten-met-diabetes-mellitus-type-2-zonder-zeer-hoog-risico-op-hart--en-vaatziekten",
+      "duplicate": false,
+      "id": "GVS-303",
+      "members": [
+        "GVS-advies tirzepatide (Mounjaro®) voor de behandeling van patiënten met diabetes mellitus type 2 zonder zeer hoog risico op hart- en vaatziekten.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies tirzepatide (Mounjaro®) voor de behandeling van patiënten met diabetes mellitus type 2 zonder zeer hoog risico op hart- en vaatziekten.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-305": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/08/22/gvs-advies-midazolam-midazolam-xiromed-voor-de-behandeling-van-epilepsie",
+      "duplicate": false,
+      "id": "GVS-305",
+      "members": [
+        "GVS-advies midazolam (Midazolam Xiromed®) voor de behandeling van epilepsie.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies midazolam (Midazolam Xiromed®) voor de behandeling van epilepsie.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-306": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/08/31/gvs-advies-fenfluramine-fintepla-voor-de-behandeling-van-epileptische-aanvallen-bij-het-dravetsyndroom-of-lennox-gastautsyndroom",
+      "duplicate": false,
+      "id": "GVS-306",
+      "members": [
+        "GVS-advies fenfluramine (Fintepla®) voor de behandeling van epileptische aanvallen bij het dravetsyndroom of lennox-gastautsyndroom (gecorrigeerde.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies fenfluramine (Fintepla®) voor de behandeling van epileptische aanvallen bij het dravetsyndroom of lennox-gastautsyndroom (gecorrigeerde.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-307": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/11/22/gvs-advies-latanoprost-netarsudil-roclanda-voor-de-behandeling-van-glaucoom-en-hoge-oogdruk",
+      "duplicate": false,
+      "id": "GVS-307",
+      "members": [
+        "GVS-advies latanoprost - netarsudil (Roclanda®).pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies latanoprost - netarsudil (Roclanda®).pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-308": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/12/07/gvs-advies-empagliflozine-jardiance-uitbreiding-bijlage-2-voorwaarden-voor-chronische-nierschade",
+      "duplicate": false,
+      "id": "GVS-308",
+      "members": [
+        "GVS-advies empagliflozine (Jardiance®) uitbreiding bijlage 2-voorwaarden voor chronische nierschade.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies empagliflozine (Jardiance®) uitbreiding bijlage 2-voorwaarden voor chronische nierschade.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
+      ]
+    },
+    "GVS-309": {
+      "bron_url": "https://www.zorginstituutnederland.nl/documenten/2023/12/08/advies---vergoed-bempedoinezuur-ezetimib-nustendi-voor-de-behandeling-van-2-vetstofwisselingsziekten",
+      "duplicate": false,
+      "id": "GVS-309",
+      "members": [
+        "GVS-advies combinatiepreparaat bempedoinezuur-ezemtimibe (Nustendi®) voor de behandeling van 2 vetstofwisselingsziekten.pdf",
+        "bron.txt"
+      ],
+      "pdfs": [
+        "GVS-advies combinatiepreparaat bempedoinezuur-ezemtimibe (Nustendi®) voor de behandeling van 2 vetstofwisselingsziekten.pdf"
+      ],
+      "zip": "ZIN_lijst_GVS_deel5_20260924.zip",
+      "zips": [
+        "ZIN_lijst_GVS_deel5_20260924.zip"
       ]
     },
     "GVS-310": {
