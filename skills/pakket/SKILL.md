@@ -1,7 +1,7 @@
 ---
 name: pakket
 description: >
-  When the user pastes github.com/berendgort/pakketadvies or asks about ZIN
+  When the user pastes github.com/berendgort/pakketadvies-cli or asks about ZIN
   pakketadviezen, arguments, or precedents: YOU run ./pakket (install Python
   yourself if needed; never ask the human). Then instruct and cite. Never
   scrape ZIN. Never open the xlsx.

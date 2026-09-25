@@ -6,8 +6,18 @@ from pakketadvies.core.exceptions import PakketAmbiguousError, PakketIncompleteE
 from pakketadvies.data.load import Corpus, list_authorities, load_corpus
 from pakketadvies.decide.cite import cite as cite_pure
 from pakketadvies.decide.show import show_argument, show_dossier
+from pakketadvies.decide.source_attach import (
+    attach_sources_to_report,
+    source_for_argument,
+    source_for_dossier,
+)
 from pakketadvies.models.argument import Argument, Dossier
-from pakketadvies.models.verdict import CiteReport, CiteRow
+from pakketadvies.models.verdict import (
+    CiteReport,
+    CiteRow,
+    ShowArgument,
+    ShowDossier,
+)
 
 __all__ = (
     "cite_query",
@@ -41,7 +51,7 @@ def cite_query(
     traject: str | None = None,
 ) -> CiteReport:
     corpus = resolve_authority(authority)
-    return cite_pure(
+    report = cite_pure(
         corpus.arguments,
         corpus.codebook,
         corpus.meta,
@@ -50,25 +60,46 @@ def cite_query(
         line=line,
         traject=traject,
     )
+    return attach_sources_to_report(
+        report,
+        arguments=corpus.arguments,
+        dossiers=corpus.dossiers,
+        sources=corpus.sources,
+    )
 
 
 def show_record(
     raw_id: str,
     *,
     authority: str | None = None,
-) -> Argument | Dossier:
+) -> ShowArgument | ShowDossier:
     corpus = resolve_authority(authority)
     native = raw_id.split(":", 1)[-1]
     upper = native.upper()
+    dos_by_native = {d.native_id: d for d in corpus.dossiers}
+
+    def as_show_arg(arg: Argument) -> ShowArgument:
+        dossier = dos_by_native.get(arg.dossier_id)
+        src = source_for_argument(
+            arg,
+            dossier=dossier,
+            sources=corpus.sources,
+            include_verbatim=True,
+        )
+        return ShowArgument(**arg.model_dump(), source=src)
+
+    def as_show_dos(dos: Dossier) -> ShowDossier:
+        src = source_for_dossier(dos, corpus.sources)
+        return ShowDossier(**dos.model_dump(), source=src)
+
     if upper.startswith("ARG-"):
-        return show_argument(corpus.arguments, raw_id)
+        return as_show_arg(show_argument(corpus.arguments, raw_id))
     if upper.startswith(("INT-", "GVS-")):
         try:
-            return show_dossier(corpus.dossiers, raw_id)
+            return as_show_dos(show_dossier(corpus.dossiers, raw_id))
         except Exception:
             pass
-        # Fall through: maybe only present as argument dossier_id.
     try:
-        return show_argument(corpus.arguments, raw_id)
+        return as_show_arg(show_argument(corpus.arguments, raw_id))
     except Exception:
-        return show_dossier(corpus.dossiers, raw_id)
+        return as_show_dos(show_dossier(corpus.dossiers, raw_id))

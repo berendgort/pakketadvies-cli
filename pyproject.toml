@@ -1,7 +1,7 @@
 [project]
-name = "pakketadvies"
+name = "pakketadvies-cli"
 version = "0.1.0"
-description = "Cite the ZIN argument to reuse, from the archive in this repo"
+description = "Local CLI that cites which Zorginstituut (ZIN) drug-reimbursement argument to reuse — dossier, date, and source"
 requires-python = ">=3.10"
 dependencies = [
     "pydantic>=2.10.0",

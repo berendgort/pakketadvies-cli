@@ -1,8 +1,8 @@
-![Pakketadvies](docs/banner.png)
+![pakketadvies-cli](docs/banner.png)
 
-# Pakketadvies
+# pakketadvies-cli
 
-Lokale citatie-tool voor **Zorginstituut Nederland (ZIN)** pakketadviezen over
+Lokale citatie-CLI voor **Zorginstituut Nederland (ZIN)** pakketadviezen over
 geneesmiddelen.
 
 **Voor wie:** mensen die een vergoedingsdossier schrijven (market access) en een
@@ -15,7 +15,7 @@ zonder iets te installeren.
 
 ## Path A — Jij (niet technisch)
 
-1. Kopieer: **https://github.com/berendgort/pakketadvies**
+1. Kopieer: **https://github.com/berendgort/pakketadvies-cli**
 2. Plak die link in Cursor, Claude, ChatGPT met code, Copilot, …
 3. Vraag in gewone taal, bijvoorbeeld:
    *zoek wanneer ZIN voor het eerst een extern controlecohort accepteerde*
@@ -45,11 +45,18 @@ De AI doet dat. Meer: [docs/for-humans.md](docs/for-humans.md).
 
 ## What you get back
 
-Verdict first, then dossier id, advice date, and the precedent sentence.
-Shortlist stays in the JSON so later reversals stay visible.
+Verdict first, then a **source block** for the top hit:
+
+- official ZIN document URL
+- local PDF path and text-extract path (when registered)
+- **verbatim** text extract when on disk (quote only this, or `source.quotation`)
+- analyst **paraphrase** — labeled as such; never a quotation from ZIN
+
+Shortlist stays in the JSON so later reversals stay visible. Later rows carry
+pointers only; full extract is on `./pakket show <id> --json`.
 
 Example: `./pakket cite "extern controlecohort" --json` → lead with verdict,
-then the earliest decisive hit.
+then the earliest decisive hit and its source block.
 
 ---
 

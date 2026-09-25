@@ -10,7 +10,14 @@ from pakketadvies.models.argument import (
     Dossier,
     SourceDoc,
 )
-from pakketadvies.models.verdict import CiteReport, CiteRow, Verdict
+from pakketadvies.models.verdict import (
+    CiteReport,
+    CiteRow,
+    ShowArgument,
+    ShowDossier,
+    SourceRef,
+    Verdict,
+)
 
 __all__ = (
     "SCHEMA_VERSION",
@@ -20,6 +27,9 @@ __all__ = (
     "CiteRow",
     "Codebook",
     "Dossier",
+    "ShowArgument",
+    "ShowDossier",
     "SourceDoc",
+    "SourceRef",
     "Verdict",
 )

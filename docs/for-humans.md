@@ -2,14 +2,14 @@
 
 ## Wat dit is
 
-Pakketadvies helpt bij Zorginstituut Nederland (ZIN) pakketadviezen over
+**pakketadvies-cli** helpt bij Zorginstituut Nederland (ZIN) pakketadviezen over
 geneesmiddelen. Jij vraagt in gewone taal welk argument je kunt hergebruiken,
 uit welk dossier, op welke datum — zonder de Excel te openen en zonder iets te
 installeren.
 
 ## Wat jij doet (Path A)
 
-1. Kopieer: `https://github.com/berendgort/pakketadvies`
+1. Kopieer: `https://github.com/berendgort/pakketadvies-cli`
 2. Plak die link in Cursor, Claude, of een andere AI die een GitHub-repo kan openen
 3. Stel je vraag, bijvoorbeeld:
    - "Wanneer gebruikte ZIN voor het eerst een extern controlecohort?"

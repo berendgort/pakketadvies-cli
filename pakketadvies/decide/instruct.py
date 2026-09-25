@@ -78,7 +78,7 @@ def instruct_payload() -> dict[str, Any]:
         "preset": "FIRST_USE",
         "audience": "non_technical_human_plus_any_ai",
         "human_path": (
-            "Paste https://github.com/berendgort/pakketadvies into any AI "
+            "Paste https://github.com/berendgort/pakketadvies-cli into any AI "
             "that can open a repo. Ask in plain language. Install nothing."
         ),
         "objective": (
@@ -91,8 +91,10 @@ def instruct_payload() -> dict[str, Any]:
             "instruct": "./pakket instruct --json",
         },
         "narrate": (
-            "Lead with verdict in plain language. Then dossier id, advice "
-            "date, and the precedent sentence. Shortlist stays in JSON."
+            "Lead with verdict in plain language. Then the source block: "
+            "quote only source.verbatim or source.quotation; never present "
+            "source.paraphrase as ZIN's words. Give URL and local paths. "
+            "Shortlist stays in JSON."
         ),
         "never": [
             "scrape ZIN HTML",

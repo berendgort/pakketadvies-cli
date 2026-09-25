@@ -1,4 +1,4 @@
-"""Human render for cite (verdict first)."""
+"""Human render for cite (verdict first, then source block)."""
 
 from __future__ import annotations
 
@@ -6,10 +6,40 @@ from rich.panel import Panel
 from rich.table import Table
 
 from pakketadvies.cli.console import console
-from pakketadvies.models.argument import Argument, Dossier
-from pakketadvies.models.verdict import CiteReport
+from pakketadvies.models.verdict import (
+    CiteReport,
+    ShowArgument,
+    ShowDossier,
+    SourceRef,
+)
 
 __all__ = ("render_cite", "render_show")
+
+
+def _print_source(src: SourceRef) -> None:
+    console.print(
+        f"[bold]document[/bold]: {src.document or '—'}  "
+        f"[bold]locator[/bold]: {src.locator or '—'}"
+    )
+    if src.url:
+        console.print(f"[bold]official URL[/bold]: {src.url}")
+    if src.pdf:
+        console.print(f"[bold]local PDF[/bold]: {src.pdf}")
+    if src.extract:
+        console.print(f"[bold]text extract[/bold]: {src.extract}")
+    if src.quotation:
+        console.print(f"[bold]quotation (sheet)[/bold]:\n{src.quotation}")
+    if src.verbatim:
+        console.print("[bold]verbatim extract[/bold]:")
+        console.print(src.verbatim)
+    elif src.note:
+        console.print(f"[bold]source note[/bold]: {src.note}")
+    if src.paraphrase:
+        console.print(
+            "[bold]analyst paraphrase[/bold] "
+            "[dim](not a quotation from ZIN)[/dim]:"
+        )
+        console.print(src.paraphrase)
 
 
 def render_cite(report: CiteReport) -> None:
@@ -46,22 +76,28 @@ def render_cite(report: CiteReport) -> None:
         )
     console.print(table)
     top = report.shortlist[0]
+    console.print(
+        f"[bold]{top.id}[/bold] · {top.dossier_id} · "
+        f"{top.advice_date or 'no date'} · {top.weight or '—'}"
+    )
     if top.precedent:
         console.print(f"[bold]precedent[/bold]: {top.precedent}")
-    if top.text:
-        console.print(f"[dim]{top.text[:400]}{'...' if len(top.text) > 400 else ''}[/dim]")
+    if top.source:
+        _print_source(top.source)
 
 
-def render_show(obj: Argument | Dossier) -> None:
-    if isinstance(obj, Argument):
+def render_show(obj: ShowArgument | ShowDossier) -> None:
+    if isinstance(obj, ShowArgument):
         console.print(
             Panel(
                 f"[bold]{obj.id}[/bold]\n"
-                f"{obj.dossier_id} · {obj.advice_date or 'no date'} · {obj.weight}\n"
-                f"{obj.theme}\n\n{obj.precedent}\n\n{obj.text}",
+                f"{obj.dossier_id} · {obj.advice_date or 'no date'} · "
+                f"{obj.weight}\n{obj.theme}\n\n"
+                f"[bold]precedent[/bold]: {obj.precedent}",
                 title="argument",
             )
         )
+        _print_source(obj.source)
         return
     console.print(
         Panel(
@@ -72,3 +108,4 @@ def render_show(obj: Argument | Dossier) -> None:
             title="dossier",
         )
     )
+    _print_source(obj.source)

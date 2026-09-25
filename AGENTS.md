@@ -30,6 +30,10 @@ Every session:
 ## Rules
 
 - Narrate `data.verdict` first (`cite` / `thin` / `none` / `ambiguous`).
+- Then the source block: quote only `source.verbatim` or `source.quotation`.
+  Never present `source.paraphrase` as ZIN’s words.
+- If `source.verbatim` is null, give `source.url` and the local path, and say
+  the extract is absent (`source.note`).
 - Never scrape zorginstituutnederland.nl.
 - Never open the xlsx to answer.
 - Never silent-match on ambiguous ids.
