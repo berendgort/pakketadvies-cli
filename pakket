@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+# Human path: open this repo in any AI. Agent path: run ./pakket.
+# Never ask the human to install Python, pip, or packages.
+set -euo pipefail
+ROOT="$(cd "$(dirname "$0")" && pwd)"
+cd "$ROOT"
+
+emit_incomplete() {
+  local msg="$1"
+  printf '%s\n' "{\"ok\": false, \"api_version\": 1, \"error\": $(python3 -c "import json,sys; print(json.dumps(sys.argv[1]))" "$msg" 2>/dev/null || printf '"%s"' "$msg"), \"error_type\": \"incomplete\", \"retryable\": false, \"agent_fix\": {\"do\": [\"YOU install Python 3.10+ without asking the human\", \"Linux: sudo apt-get update && sudo apt-get install -y python3 python3-venv python3-pip\", \"macOS: brew install python\", \"Then re-run ./pakket instruct --json\"], \"never_ask_human\": [\"install Python\", \"run pip\", \"create a venv\"]}}"
+  exit 1
+}
+
+resolve_python() {
+  if [[ -x "$ROOT/.venv/bin/python" ]]; then
+    echo "$ROOT/.venv/bin/python"
+    return
+  fi
+  if command -v python3 >/dev/null 2>&1; then
+    command -v python3
+    return
+  fi
+  if command -v python >/dev/null 2>&1; then
+    command -v python
+    return
+  fi
+  return 1
+}
+
+PY="$(resolve_python || true)"
+if [[ -z "${PY}" ]]; then
+  # Agent may still recover if python3 appears after package install.
+  if command -v apt-get >/dev/null 2>&1; then
+    emit_incomplete "python3 not found. Agent: install with apt-get (see agent_fix), then retry ./pakket."
+  elif command -v brew >/dev/null 2>&1; then
+    emit_incomplete "python3 not found. Agent: brew install python, then retry ./pakket."
+  else
+    emit_incomplete "python3 not found. Agent: install Python 3.10+ on this machine, then retry ./pakket. Do not ask the human."
+  fi
+fi
+
+export PAKKET_ROOT="$ROOT"
+export PYTHONPATH="${ROOT}${PYTHONPATH:+:$PYTHONPATH}"
+exec "$PY" "$ROOT/pakketadvies/boot.py" "$@"

@@ -1,0 +1,317 @@
+{
+  "keuzelijsten": {
+    "Status": [
+      "Afgerond advies",
+      "Lopend"
+    ],
+    "Indicatiegroep": [
+      "Multipel myeloom",
+      "AL-amyloïdose",
+      "CLL",
+      "B-ALL",
+      "AML",
+      "DLBCL / LBCL",
+      "Folliculair lymfoom",
+      "Mantelcellymfoom",
+      "Waldenström",
+      "Hodgkin",
+      "Lymfoom (overig / onbepaald)",
+      "MDS",
+      "Myelofibrose",
+      "Systemische mastocytose",
+      "Hemofilie",
+      "Sikkelcelziekte / thalassemie",
+      "Overig hematologisch",
+      "Solide tumor (zie Indicatie)",
+      "Niet-oncologisch (zie Indicatie)",
+      "Longkanker (NSCLC/SCLC)",
+      "Borstkanker",
+      "Melanoom",
+      "Niercelkanker",
+      "Prostaatkanker",
+      "Blaas-/urotheelkanker",
+      "Lever-/galwegkanker",
+      "Maag-/slokdarmkanker",
+      "Darmkanker",
+      "Gynaecologische tumoren",
+      "Hoofd-halskanker",
+      "Schildklier- / neuro-endocriene tumoren",
+      "Sarcoom / GIST",
+      "Hersentumoren",
+      "Overige solide tumoren"
+    ],
+    "Behandellijn": [
+      "1e lijn",
+      "2e lijn",
+      "3e lijn of later",
+      "r/r (lijn niet gespecificeerd)",
+      "Meerdere lijnen / indicatiebreed",
+      "Onderhoud / consolidatie",
+      "n.v.t. / onbekend"
+    ],
+    "Type advies (intramuraal)": [
+      "Initieel",
+      "Herbeoordeling",
+      "Update",
+      "Indicatie-uitbreiding",
+      "Risicogericht pakketbeheer",
+      "Pilot / indicatiebreed (voorlopig advies)"
+    ],
+    "Type advies (GVS)": [
+      "Initieel",
+      "Herbeoordeling",
+      "Uitbreiding voorwaarden",
+      "Bijlage 2-wijziging",
+      "Positie in GVS / cluster",
+      "Uitstroom / herbeoordeling bestaand middel"
+    ],
+    "Uitkomst (intramuraal)": [
+      "Vergoeden",
+      "Alleen vergoeden na prijsdaling",
+      "Vergoeden onder voorwaarden",
+      "Niet vergoeden",
+      "Uitbreiding vergoeding",
+      "Anders"
+    ],
+    "Uitkomst (GVS)": [
+      "Opnemen bijlage 1A",
+      "Opnemen bijlage 1B",
+      "Opnemen na prijsonderhandeling",
+      "Opnemen met bijlage 2-voorwaarden",
+      "Niet opnemen",
+      "Uitstroom / niet langer vergoeden",
+      "Anders"
+    ],
+    "Therapeutisch gebied": [
+      "Oncologie (solide tumoren)",
+      "Hemato-oncologie",
+      "Hematologie (benigne)",
+      "Immunologie / IBD / dermatologie / reumatologie",
+      "Neurologie",
+      "Psychiatrie",
+      "Oogheelkunde",
+      "Maag-darm / lever",
+      "Stofwisseling / endocrinologie / zeldzaam",
+      "Hart / vaat / long",
+      "Infectieziekten",
+      "Gynaecologie / obstetrie",
+      "Overig"
+    ],
+    "Ja/Nee": [
+      "Ja",
+      "Nee"
+    ],
+    "Claim fabrikant": [
+      "Meerwaarde",
+      "Gelijke waarde",
+      "Niet-inferieur",
+      "Onbekend"
+    ],
+    "Stand W&P": [
+      "Voldoet",
+      "Voldoet niet",
+      "Deels (subgroep)",
+      "Niet beoordeeld"
+    ],
+    "SW&P kernreden": [
+      "Directe RCT met klinisch relevant effect",
+      "Indirecte vergelijking geaccepteerd (effect groot/consistent)",
+      "Indirecte vergelijking niet valide / te onzeker",
+      "Geen vergelijkende data t.o.v. Nederlandse standaard",
+      "Effect te klein of niet klinisch relevant",
+      "Surrogaat-eindpunt onvoldoende onderbouwd",
+      "Confounding (bridging, crossover, selectie)",
+      "Alleen subgroep onderbouwd (deels)",
+      "Niet-inferioriteit / gelijke waarde aangetoond",
+      "Richtlijn- en consensusgebaseerd (indicatiebrede aanpak / pilot)",
+      "Niet beoordeeld (procedureel)",
+      "Overig",
+      "Single-arm geaccepteerd (natuurlijk beloop als controle)"
+    ],
+    "Therapeutische waarde": [
+      "Meerwaarde",
+      "Gelijke waarde",
+      "Minderwaarde",
+      "Niet te bepalen"
+    ],
+    "Referentiewaarde (€/QALY)": [
+      20000,
+      50000,
+      80000
+    ],
+    "Kosteneffectief": [
+      "Ja",
+      "Nee",
+      "Onzeker",
+      "Niet beoordeeld"
+    ],
+    "Aanvraag GVS": [
+      "Bijlage 1A (cluster)",
+      "Bijlage 1B (uniek)",
+      "Uitbreiding bijlage 2",
+      "Herbeoordeling bestaand middel"
+    ],
+    "Status extractie": [
+      "Index",
+      "Basisgegevens",
+      "Argumenten volledig",
+      "Gecontroleerd"
+    ],
+    "Traject": [
+      "Intramuraal",
+      "GVS"
+    ],
+    "Pakketcriterium": [
+      "Effectiviteit (stand W&P)",
+      "Kosteneffectiviteit",
+      "Budgetimpact",
+      "Noodzakelijkheid (ziektelast)",
+      "Uitvoerbaarheid / gepast gebruik",
+      "Procedureel / dossierkwaliteit",
+      "Maatschappelijk (ACP-weging)"
+    ],
+    "Thema": [
+      "Comparator / gebruikelijke zorg",
+      "Indirecte vergelijking / NMA",
+      "Single-arm / ongecontroleerde data",
+      "Surrogaat-eindpunt vs. harde uitkomst",
+      "Extrapolatie / tijdshorizon / overlevingscurves",
+      "Kwaliteit van leven / utiliteiten",
+      "Cross-over / treatment switching",
+      "Subgroep / indicatiebeperking",
+      "Onzekerheid / GRADE / bewijskracht",
+      "Klinische relevantie / MCID",
+      "Ziektelast / proportional shortfall",
+      "Weesgeneesmiddel / kleine populatie",
+      "Prijs / kortingsadvies / ICER-drempel",
+      "Budgetimpact / patiëntaantallen / verdringing",
+      "Pay-for-performance / uitkomstafspraken / registratie",
+      "Start- en stopcriteria / gepast gebruik",
+      "Combinatietherapie / prijsverdeling",
+      "Dosering / verspilling / toediening",
+      "Bijlage 2-voorwaarden (GVS)",
+      "Clusterindeling / vergoedingslimiet (GVS)",
+      "Registratie / off-label / EMA-status",
+      "Overig"
+    ],
+    "Positie ZIN": [
+      "Ondersteunt claim fabrikant",
+      "Verwerpt claim fabrikant",
+      "Nuanceert / voorwaardelijk",
+      "Eigen initiatief ZIN (geen claim)"
+    ],
+    "Gewicht": [
+      "Doorslaggevend",
+      "Ondersteunend",
+      "Zijdelings"
+    ],
+    "Brondocument": [
+      "Pakketadvies (brief aan minister)",
+      "Farmacotherapeutisch rapport",
+      "Addendum FT-rapport",
+      "Farmaco-economisch rapport",
+      "Budgetimpactanalyse",
+      "ACP-advies / verslag",
+      "WAR-verslag",
+      "Reactie fabrikant / consultatie",
+      "Overig"
+    ]
+  },
+  "definities": [
+    {
+      "categorie": "Pakketcriterium",
+      "term": "Effectiviteit (stand W&P)",
+      "definitie": "Voldoet het middel aan 'de stand van de wetenschap en praktijk' (art. 2.1 lid 2 Bzv)? Inclusief therapeutische waarde t.o.v. de vergelijkende behandeling (GRADE)."
+    },
+    {
+      "categorie": "Pakketcriterium",
+      "term": "Kosteneffectiviteit",
+      "definitie": "ICER (€/QALY) t.o.v. de referentiewaarde die hoort bij de ziektelast; incl. ZIN-oordeel over modelaannames en onzekerheid."
+    },
+    {
+      "categorie": "Pakketcriterium",
+      "term": "Budgetimpact",
+      "definitie": "Verwachte macrokosten per jaar (BIA), aantal patiënten, substitutie en verdringingseffecten."
+    },
+    {
+      "categorie": "Pakketcriterium",
+      "term": "Noodzakelijkheid (ziektelast)",
+      "definitie": "Ziektelast (proportional shortfall, 0–1) en de vraag of de zorg voor rekening van het collectief moet komen."
+    },
+    {
+      "categorie": "Pakketcriterium",
+      "term": "Uitvoerbaarheid / gepast gebruik",
+      "definitie": "Start-/stopcriteria, indicatiecommissies, registraties, praktische inbedding, afspraken over gepast gebruik."
+    },
+    {
+      "categorie": "Pakketcriterium",
+      "term": "Procedureel / dossierkwaliteit",
+      "definitie": "Volledigheid/kwaliteit dossier, verzochte aanvullingen, ontbrekende data, afwijkingen van de richtlijn FE-onderzoek."
+    },
+    {
+      "categorie": "Pakketcriterium",
+      "term": "Maatschappelijk (ACP-weging)",
+      "definitie": "Overwegingen van de ACP: solidariteit, rechtvaardigheid, precedentwerking, maatschappelijke aanvaardbaarheid van prijs of onzekerheid."
+    },
+    {
+      "categorie": "Veld",
+      "term": "Indicatiegroep (ziekte)*",
+      "definitie": "Genormaliseerde ziektegroep (dropdown), automatisch afgeleid uit de titel en daarna te corrigeren; wordt in het Argumenten-blad opgehaald zodat je argumenten per ziekte kunt filteren."
+    },
+    {
+      "categorie": "Veld",
+      "term": "Behandellijn*",
+      "definitie": "Behandellijn van de beoordeelde indicatie (dropdown), automatisch afgeleid uit de titel en daarna te corrigeren; wordt in het Argumenten-blad opgehaald voor filtering."
+    },
+    {
+      "categorie": "Veld",
+      "term": "SW&P: kernreden oordeel",
+      "definitie": "De ene doorslaggevende reden waarom ZIN het middel wel/niet/deels aan de stand van de wetenschap en praktijk vond voldoen (dropdown). Gebruik 'Alleen subgroep onderbouwd' als het oordeel per subpopulatie verschilt."
+    },
+    {
+      "categorie": "Veld",
+      "term": "SW&P: waarom positief/negatief",
+      "definitie": "Vrije tekst, 3–6 zinnen: begin met 'Positief', 'Negatief' of 'Deels', noem het bewijs (studieopzet, comparator, effectgrootte, GRADE), de redenen waarom ZIN het bewijs wel/niet accepteerde en eventuele voorwaarden (subgroep, herbeoordeling)."
+    },
+    {
+      "categorie": "Veld",
+      "term": "Positie ZIN t.o.v. claim",
+      "definitie": "Ondersteunt: ZIN volgt de fabrikant. Verwerpt: ZIN wijst de claim/aanname af. Nuanceert: ZIN accepteert onder voorwaarden of voor een subgroep."
+    },
+    {
+      "categorie": "Veld",
+      "term": "Gewicht in advies",
+      "definitie": "Doorslaggevend: het argument bepaalt de uitkomst. Ondersteunend: draagt bij. Zijdelings: genoemd, maar niet bepalend."
+    },
+    {
+      "categorie": "Veld",
+      "term": "Precedentwaarde",
+      "definitie": "In één zin: voor welk type toekomstig dossier is dit argument opnieuw bruikbaar (bijv. 'acceptatie van single-arm data bij ultrazeldzame ziekte')."
+    },
+    {
+      "categorie": "Veld",
+      "term": "Referentiewaarde (€/QALY)",
+      "definitie": "ZIN-referentiewaarden naar ziektelast: 0,10–0,40 → € 20.000; 0,41–0,70 → € 50.000; 0,71–1,00 → € 80.000 per QALY (rapport 'Kosteneffectiviteit in de praktijk', 2015). Controleer bij herziening van het beoordelingskader."
+    },
+    {
+      "categorie": "Veld",
+      "term": "Geadviseerde prijsreductie (%)",
+      "definitie": "Invoeren als fractie (0,40 = 40%). Het percentage dat ZIN noemt als noodzakelijk om kosteneffectief te worden; leeg laten als ZIN geen percentage noemt."
+    },
+    {
+      "categorie": "Veld",
+      "term": "Uitkomst advies (intramuraal)",
+      "definitie": "Sinds 2024 staat de uitkomst in de titel van het ZIN-advies (vergoed / alleen vergoeden na prijsdaling / niet vergoeden). Voor oudere adviezen: overnemen uit de brief aan de minister."
+    },
+    {
+      "categorie": "Veld",
+      "term": "Uitkomst advies (GVS)",
+      "definitie": "Bijlage 1A = clusteren met vergoedingslimiet; 1B = uniek, volledige vergoeding; bijlage 2 = nadere voorwaarden. 'Opnemen na prijsonderhandeling' als ZIN opname koppelt aan een financieel arrangement."
+    },
+    {
+      "categorie": "Veld",
+      "term": "Status extractie",
+      "definitie": "Index = alleen titel/datum/URL uit de ZIN-index. Basisgegevens = kerngegevens (waarde, ICER, BIA, uitkomst) ingevuld. Argumenten volledig = alle relevante argumenten in tabblad Argumenten. Gecontroleerd = tweede persoon heeft gecontroleerd."
+    }
+  ]
+}

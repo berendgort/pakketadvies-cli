@@ -1,0 +1,19 @@
+{
+  "authority": "zin",
+  "extra_keys": [
+    "budget_impact_mln",
+    "extraction_status",
+    "icer_manufacturer",
+    "icer_zin",
+    "indication_group",
+    "keywords",
+    "orphan",
+    "outcome",
+    "patients_per_year",
+    "price_cut_pct",
+    "quote",
+    "source_url",
+    "therapeutic_area",
+    "traject"
+  ]
+}

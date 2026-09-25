@@ -1,0 +1,2247 @@
+{
+  "as_of": "2026-09-24",
+  "bundle_dir": "assets/zin/bundles/int",
+  "dossier_count": 146,
+  "dossiers": {
+    "INT-001": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-001",
+      "members": [
+        "Pakketadvies+nivolumab+(Opdivo).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+nivolumab+(Opdivo).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-002": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-002",
+      "members": [
+        "Pakketadvies+pembrolizumab+(Keytruda).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+pembrolizumab+(Keytruda).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-003": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-003",
+      "members": [
+        "Pakketadvies+palbociclib+(Ibrance).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+palbociclib+(Ibrance).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-004": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-004",
+      "members": [
+        "Ibrutinib+(Imbruvica®)+bij+eerstelijnsbehandeling+chronische+lymfatische+leukemie+(CLL)+bij+patiënten+die+geen+del(17p)+of+TP53-mutatie+hebben.pdf"
+      ],
+      "pdfs": [
+        "Ibrutinib+(Imbruvica®)+bij+eerstelijnsbehandeling+chronische+lymfatische+leukemie+(CLL)+bij+patiënten+die+geen+del(17p)+of+TP53-mutatie+hebben.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-031.zip"
+      ]
+    },
+    "INT-005": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-005",
+      "members": [
+        "combinatiebehandelingen+van+daratumumab+(Darzalex)+voor+de+behandeling+van+volwassen+patiënten+met.pdf"
+      ],
+      "pdfs": [
+        "combinatiebehandelingen+van+daratumumab+(Darzalex)+voor+de+behandeling+van+volwassen+patiënten+met.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-031.zip"
+      ]
+    },
+    "INT-006": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-006",
+      "members": [
+        "Brief+minister+Pakketadvies+Ribociclib.pdf"
+      ],
+      "pdfs": [
+        "Brief+minister+Pakketadvies+Ribociclib.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-007": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-007",
+      "members": [
+        "Pakketadvies atezolizumab (Tecentriq®) bij gemetastaseerde niet-kleincellige longkanker.pdf",
+        "Pakketadvies+atezolizumab+(Tecentriq®)+bij+gemetastaseerde+niet-kleincellige+longkanker.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies atezolizumab (Tecentriq®) bij gemetastaseerde niet-kleincellige longkanker.pdf",
+        "Pakketadvies+atezolizumab+(Tecentriq®)+bij+gemetastaseerde+niet-kleincellige+longkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-138.zip"
+      ]
+    },
+    "INT-008": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-008",
+      "members": [
+        "Brief pakketadvies nusinersen bij SMA aan minister van medische zorg en sport.pdf",
+        "Brief+pakketadvies+nusinersen+bij+SMA+aan+minister+van+medische+zorg+en+sport.pdf"
+      ],
+      "pdfs": [
+        "Brief pakketadvies nusinersen bij SMA aan minister van medische zorg en sport.pdf",
+        "Brief+pakketadvies+nusinersen+bij+SMA+aan+minister+van+medische+zorg+en+sport.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-138.zip"
+      ]
+    },
+    "INT-009": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-009",
+      "members": [
+        "Pakketadvies+Zorginstituut+Nederland+osimertinib+(Tagrisso).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+Zorginstituut+Nederland+osimertinib+(Tagrisso).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-010": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-010",
+      "members": [
+        "iddel+tisagenlecleucel+(Kymriah®)+voor+de+behandeling+van+B-cel+acute+lymfatische+leukemie+(B-cel+ALL)+bij+kinderen+en+jongvolwassenen+tot+25+jaar.pdf"
+      ],
+      "pdfs": [
+        "iddel+tisagenlecleucel+(Kymriah®)+voor+de+behandeling+van+B-cel+acute+lymfatische+leukemie+(B-cel+ALL)+bij+kinderen+en+jongvolwassenen+tot+25+jaar.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-031.zip"
+      ]
+    },
+    "INT-011": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-011",
+      "members": [
+        "Pakkettadvies abemaciclib (Verzenios).pdf",
+        "Pakkettadvies+abemaciclib+(Verzenios).pdf"
+      ],
+      "pdfs": [
+        "Pakkettadvies abemaciclib (Verzenios).pdf",
+        "Pakkettadvies+abemaciclib+(Verzenios).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-138.zip"
+      ]
+    },
+    "INT-012": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-012",
+      "members": [
+        "Pakketadvies+tisagenlecleucel+(Kymriah)+bij+behandeling+van+DLBCL.pdf",
+        "Pakketadvies+tisagenlecleucel+(Kymriah)+bij+behandeling+van+DLBCL.zip"
+      ],
+      "pdfs": [
+        "Pakketadvies+tisagenlecleucel+(Kymriah)+bij+behandeling+van+DLBCL.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-031.zip"
+      ]
+    },
+    "INT-013": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-013",
+      "members": [
+        "Pakketadvies+axicabtagene+ciloleucel+(Yescarta).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+axicabtagene+ciloleucel+(Yescarta).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-031.zip"
+      ]
+    },
+    "INT-014": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-014",
+      "members": [
+        "Pakketadvies+durvalumab+(Imfinzi).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+durvalumab+(Imfinzi).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-015": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-015",
+      "members": [
+        "Pakketadvies+venetoclax+(Venclyxto®)+in+combinatie+met+rituximab.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+venetoclax+(Venclyxto®)+in+combinatie+met+rituximab.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-031.zip"
+      ]
+    },
+    "INT-016": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-016",
+      "members": [
+        "Pakketadvies+ipilimumamab-nivolumab+-+(Yervoy-Opdivo).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+ipilimumamab-nivolumab+-+(Yervoy-Opdivo).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-017": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-017",
+      "members": [
+        "Brief+en+pakketadvies+aan+minister+Bruins+over+dabrafenib+-+trametinib+(Tafinlar+-+Mekinist).pdf"
+      ],
+      "pdfs": [
+        "Brief+en+pakketadvies+aan+minister+Bruins+over+dabrafenib+-+trametinib+(Tafinlar+-+Mekinist).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-018": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-018",
+      "members": [
+        "Pakketadvies emicizumab (Hemlibra®).pdf",
+        "Pakketadvies+emicizumab+(Hemlibra®).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies emicizumab (Hemlibra®).pdf",
+        "Pakketadvies+emicizumab+(Hemlibra®).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-138.zip"
+      ]
+    },
+    "INT-019": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-019",
+      "members": [
+        "Pakketadvies+voretigene+neparvovec+(Luxturna®).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+voretigene+neparvovec+(Luxturna®).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-020": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-020",
+      "members": [
+        "Pakketadvies olaparib (lynparza).pdf",
+        "Pakketadvies+olaparib+(lynparza).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies olaparib (lynparza).pdf",
+        "Pakketadvies+olaparib+(lynparza).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-138.zip"
+      ]
+    },
+    "INT-021": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-021",
+      "members": [
+        "Pakketadvies sluisgeneesmiddel dabrafenib in combinatie met trametinib (Tafinlar® en Mekinist®) bij de adjuvante behandeling van volwassen patiënt.pdf",
+        "met+trametinib+(Tafinlar®+en+Mekinist®)+bij+de+adjuvante+behandeling+van+volwassen+patiënten+met+melanoom+in+stadium+III+met+een+BRAF+V600-mutatie.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies sluisgeneesmiddel dabrafenib in combinatie met trametinib (Tafinlar® en Mekinist®) bij de adjuvante behandeling van volwassen patiënt.pdf",
+        "met+trametinib+(Tafinlar®+en+Mekinist®)+bij+de+adjuvante+behandeling+van+volwassen+patiënten+met+melanoom+in+stadium+III+met+een+BRAF+V600-mutatie.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-138.zip"
+      ]
+    },
+    "INT-022": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-022",
+      "members": [
+        "Pakketadvies+ibrutinib+(Imbruvica).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+ibrutinib+(Imbruvica).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-031.zip"
+      ]
+    },
+    "INT-023": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-023",
+      "members": [
+        "Pakketadvies avelumab (Bavencio®) in combinatie met axitinib bij de behandeling van niercelcarcinoom.pdf",
+        "Pakketadvies+avelumab+(Bavencio®)+in+combinatie+met+axitinib+bij+de+behandeling+van+niercelcarcinoom.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies avelumab (Bavencio®) in combinatie met axitinib bij de behandeling van niercelcarcinoom.pdf",
+        "Pakketadvies+avelumab+(Bavencio®)+in+combinatie+met+axitinib+bij+de+behandeling+van+niercelcarcinoom.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-138.zip"
+      ]
+    },
+    "INT-024": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-024",
+      "members": [
+        "Pakketadvies+trastuzumab-emtansine+(Kadcyla®)+bij+vroege+HER2-positieve+borstkanker.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+trastuzumab-emtansine+(Kadcyla®)+bij+vroege+HER2-positieve+borstkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-025": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-025",
+      "members": [
+        "Pakketsadvies+esketamine+neusspray+(Spravato®)+bij+de+behandeling+van+depressie.pdf"
+      ],
+      "pdfs": [
+        "Pakketsadvies+esketamine+neusspray+(Spravato®)+bij+de+behandeling+van+depressie.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-026": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-026",
+      "members": [
+        "Brief+aan+minister+Medische+Zorg+en+Sport+met+Pakketadvies+venetoclax+(Venclyxto®).pdf"
+      ],
+      "pdfs": [
+        "Brief+aan+minister+Medische+Zorg+en+Sport+met+Pakketadvies+venetoclax+(Venclyxto®).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-031.zip"
+      ]
+    },
+    "INT-027": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-027",
+      "members": [
+        "Brief+en+pakketadvies+polatuzumab+verdotin+(Polivy).pdf"
+      ],
+      "pdfs": [
+        "Brief+en+pakketadvies+polatuzumab+verdotin+(Polivy).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-031.zip"
+      ]
+    },
+    "INT-028": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-028",
+      "members": [
+        "Brief+minister+voor+Medische+Zorg+en+Sport+over+pakketadvies+multipel+myeloom.pdf"
+      ],
+      "pdfs": [
+        "Brief+minister+voor+Medische+Zorg+en+Sport+over+pakketadvies+multipel+myeloom.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-031.zip"
+      ]
+    },
+    "INT-029": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-029",
+      "members": [
+        "Brief aan minister MZS over Pakketadvies sluisgeneesmiddel onasemnogene abeparvovec - Zolgensma.pdf",
+        "Brief+aan+minister+MZS+over+Pakketadvies+sluisgeneesmiddel+onasemnogene+abeparvovec+-+Zolgensma.pdf"
+      ],
+      "pdfs": [
+        "Brief aan minister MZS over Pakketadvies sluisgeneesmiddel onasemnogene abeparvovec - Zolgensma.pdf",
+        "Brief+aan+minister+MZS+over+Pakketadvies+sluisgeneesmiddel+onasemnogene+abeparvovec+-+Zolgensma.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-138.zip"
+      ]
+    },
+    "INT-030": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-030",
+      "members": [
+        "Pakketadvies+pertuzumab+en+trastuzumab+Phesgo+bij+borstkanker.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+pertuzumab+en+trastuzumab+Phesgo+bij+borstkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-031": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-031",
+      "members": [
+        "Pakketadvies+isatuximab+(Sarclisa).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+isatuximab+(Sarclisa).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-031.zip"
+      ]
+    },
+    "INT-032": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-032",
+      "members": [
+        "Brief minister MZS met Pakketadvies niraparib - Zejula.pdf",
+        "Brief+minister+MZS+met+Pakketadvies+niraparib+-+Zejula.pdf"
+      ],
+      "pdfs": [
+        "Brief minister MZS met Pakketadvies niraparib - Zejula.pdf",
+        "Brief+minister+MZS+met+Pakketadvies+niraparib+-+Zejula.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-138.zip"
+      ]
+    },
+    "INT-033": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-033",
+      "members": [
+        "Brief+aan+de+minister+voor+Medische+Zorg+en+Sport+betreft+pakketadvies+entrectinib+(Rolzytrek)+bij+ROS1+positief+gevorderd+NSCLC.pdf"
+      ],
+      "pdfs": [
+        "Brief+aan+de+minister+voor+Medische+Zorg+en+Sport+betreft+pakketadvies+entrectinib+(Rolzytrek)+bij+ROS1+positief+gevorderd+NSCLC.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-034": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-034",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+betibeglogene+autotemcel+Zynteglo.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+betibeglogene+autotemcel+Zynteglo.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-035": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-035",
+      "members": [
+        "Pakketadvies+avelumab+Bavencio+bij+de+behandeling+van+urotheelcelcarcinoom.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+avelumab+Bavencio+bij+de+behandeling+van+urotheelcelcarcinoom.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-036": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-036",
+      "members": [
+        "Advies+herbeoordeling+axixabtagene+ciloleucel+Yescarta.pdf"
+      ],
+      "pdfs": [
+        "Advies+herbeoordeling+axixabtagene+ciloleucel+Yescarta.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-037": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-037",
+      "members": [
+        "Pakketadvies+ipilimumab+(Yervoy)+in+combinatie+met+nivolumab+(Opdivo).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+ipilimumab+(Yervoy)+in+combinatie+met+nivolumab+(Opdivo).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-038": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-038",
+      "members": [
+        "Brief+aan+staatssecretaris+van+VWS+met+pakketadvies+cemiplimab+Libtayo.pdf"
+      ],
+      "pdfs": [
+        "Brief+aan+staatssecretaris+van+VWS+met+pakketadvies+cemiplimab+Libtayo.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-039": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-039",
+      "members": [
+        "Brief+aan+staatssecretaris+van+VWS+met+pakketadvies+venetoclax+(Venclyxto).pdf"
+      ],
+      "pdfs": [
+        "Brief+aan+staatssecretaris+van+VWS+met+pakketadvies+venetoclax+(Venclyxto).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-040": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-040",
+      "members": [
+        "Brief+aan+staatssecretaris+van+Volksgezondheid+Welzijn+en+Sport+betreft+pakketadvies+osimertinib+(Tagrisso).pdf"
+      ],
+      "pdfs": [
+        "Brief+aan+staatssecretaris+van+Volksgezondheid+Welzijn+en+Sport+betreft+pakketadvies+osimertinib+(Tagrisso).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-041": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-041",
+      "members": [
+        "Pakketadvies+ravulizumab+(Ultomiris).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+ravulizumab+(Ultomiris).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-042": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-042",
+      "members": [
+        "Brief+staatssecretaris+van+VWS+over+pakketadvies+ipilimumab+Yervoy+in+combinatie+met+nivolumab+Opdivo.pdf"
+      ],
+      "pdfs": [
+        "Brief+staatssecretaris+van+VWS+over+pakketadvies+ipilimumab+Yervoy+in+combinatie+met+nivolumab+Opdivo.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-043": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-043",
+      "members": [
+        "Pakketadvies+acalabrutinib+(Calquence).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+acalabrutinib+(Calquence).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-044": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-044",
+      "members": [
+        "Pakketadvies+tucatinib+(Tukysa).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+tucatinib+(Tukysa).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-045": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-045",
+      "members": [
+        "Pakketadvies+cabozantinib+in+combinatie+met+nivolumab.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+cabozantinib+in+combinatie+met+nivolumab.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-046": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-046",
+      "members": [
+        "Brief+minister+VWS+met+Pakketadvies+sluisgeneesmiddel+zanubrutinib+(Brukinsa).pdf"
+      ],
+      "pdfs": [
+        "Brief+minister+VWS+met+Pakketadvies+sluisgeneesmiddel+zanubrutinib+(Brukinsa).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-047": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-047",
+      "members": [
+        "Brief+aan+minister+van+VWS+over+pakketadvies+sluisgeneesmiddel+risdiplam+(Evrysdi).pdf"
+      ],
+      "pdfs": [
+        "Brief+aan+minister+van+VWS+over+pakketadvies+sluisgeneesmiddel+risdiplam+(Evrysdi).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-048": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-048",
+      "members": [
+        "Brief+aan+minister+van+VWS+over+Pakketadvies+sacituzumab+govitecan+(Trodelvy).pdf"
+      ],
+      "pdfs": [
+        "Brief+aan+minister+van+VWS+over+Pakketadvies+sacituzumab+govitecan+(Trodelvy).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-049": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-049",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+brexucabtagene+autoleucel+(Tecartus).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+brexucabtagene+autoleucel+(Tecartus).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-050": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-050",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+pegcetacoplan+(Aspaveli).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+pegcetacoplan+(Aspaveli).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-051": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-051",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+atidarsagene+autotemcel+(Libmeldy).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+atidarsagene+autotemcel+(Libmeldy).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-052": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-052",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+ciltacabtagene+autoleucel+(Carvykti®)+voor+de+behandeling+van+multipel+myeloom.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+ciltacabtagene+autoleucel+(Carvykti®)+voor+de+behandeling+van+multipel+myeloom.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-053": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-053",
+      "members": [
+        "Pakketadvies+pralsetinib+(Gavreto®)+bij+de+behandeling+van+niet-kleincellige+longkanker.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+pralsetinib+(Gavreto®)+bij+de+behandeling+van+niet-kleincellige+longkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-054": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-054",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+trastuzumab-deruxtecan+(Enhertu®)+voor+de+behandeling+van+HER2-positieve+borstkanker.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+trastuzumab-deruxtecan+(Enhertu®)+voor+de+behandeling+van+HER2-positieve+borstkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-055": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-055",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+tafasitamab+(Minjuvi®)+voor+de+behandeling+van+lymfeklierkanker.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+tafasitamab+(Minjuvi®)+voor+de+behandeling+van+lymfeklierkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-056": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-056",
+      "members": [
+        "eneesmiddel+brexucabtagene+autoleucel+(Tecartus®)+voor+de+behandeling+van+bepaalde+patiënten+met+recidiverend+of+refractair+mantelcellymfoom+(MCL).pdf"
+      ],
+      "pdfs": [
+        "eneesmiddel+brexucabtagene+autoleucel+(Tecartus®)+voor+de+behandeling+van+bepaalde+patiënten+met+recidiverend+of+refractair+mantelcellymfoom+(MCL).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-057": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-057",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+lenvatinib+(Kisplix®)+in+combinatie+met+pembrolizumab+voor+de+behandeling+van+niercelkanker.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+lenvatinib+(Kisplix®)+in+combinatie+met+pembrolizumab+voor+de+behandeling+van+niercelkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-058": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-058",
+      "members": [
+        "Pakketadvies+lenvatinib+(Lenvima®)+in+combinatie+met+pembrolizumab.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+lenvatinib+(Lenvima®)+in+combinatie+met+pembrolizumab.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-059": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-059",
+      "members": [
+        "Brief+aan+de+minister+van+Volksgezondheid+Welzijn+en+Sport+betreft+pakketadvies+NTRK-remmers+entrectinib+en+larotrectinib+(Rozlytrek+en+Vitrakvi).pdf"
+      ],
+      "pdfs": [
+        "Brief+aan+de+minister+van+Volksgezondheid+Welzijn+en+Sport+betreft+pakketadvies+NTRK-remmers+entrectinib+en+larotrectinib+(Rozlytrek+en+Vitrakvi).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-060": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-060",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+eptinezumab+(Vyepti®)+voor+de+behandeling+van+migraine.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+eptinezumab+(Vyepti®)+voor+de+behandeling+van+migraine.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-061": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-061",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+darolutamide+(Nubeqa)+voor+de+behandeling+van+uitgezaaide+prostaatkanker+(002).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+darolutamide+(Nubeqa)+voor+de+behandeling+van+uitgezaaide+prostaatkanker+(002).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-062": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-062",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+zanubrutinib+(Brukinsa®)+voor+de+behandeling+van+chronische+lymfatische+leukemie+(CLL)+(2).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+zanubrutinib+(Brukinsa®)+voor+de+behandeling+van+chronische+lymfatische+leukemie+(CLL)+(2).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-063": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-063",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+emicizumab+(Hemlibra®)+voor+de+behandeling+van+matig-ernstige+hemofilie+A+en+een+groot+risico+op+bloedingen.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+emicizumab+(Hemlibra®)+voor+de+behandeling+van+matig-ernstige+hemofilie+A+en+een+groot+risico+op+bloedingen.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-064": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-064",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+atidarsagene+autotemcel+(Libmeldy®)+-+Update.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+atidarsagene+autotemcel+(Libmeldy®)+-+Update.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-065": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-065",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+ravulizumab+(Ultomiris®)+voor+de+behandeling+van+volwassen+patiënten+met+myasthenia+gravis.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+ravulizumab+(Ultomiris®)+voor+de+behandeling+van+volwassen+patiënten+met+myasthenia+gravis.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-066": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-066",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+evinacumab+(Evkeeza®)+voor+de+behandeling+van+een+zeldzame+vorm+van+verhoogd+cholesterolgehalte.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+evinacumab+(Evkeeza®)+voor+de+behandeling+van+een+zeldzame+vorm+van+verhoogd+cholesterolgehalte.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-067": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-067",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+abemaciclib+(Verzenios®).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+abemaciclib+(Verzenios®).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-068": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-068",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+olaparib+(Lynparza®)+voor+de+behandeling+van+erfelijke+borstkanker.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+olaparib+(Lynparza®)+voor+de+behandeling+van+erfelijke+borstkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-069": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-069",
+      "members": [
+        "Pakketadvies+upadacitinib+(Rinvoq®)+bij+de+ziekte+van+Crohn.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+upadacitinib+(Rinvoq®)+bij+de+ziekte+van+Crohn.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-070": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-070",
+      "members": [
+        "Advies+-+Vergoed+deucravacitinib+(Sotyktu®)+voor+de+behandeling+van+matige+tot+ernstige+psoriasis.pdf"
+      ],
+      "pdfs": [
+        "Advies+-+Vergoed+deucravacitinib+(Sotyktu®)+voor+de+behandeling+van+matige+tot+ernstige+psoriasis.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-071": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-071",
+      "members": [
+        "Advies+-+Vergoed+lisocabtagene+maraleucel+(Breyanzi®)+voor+de+behandeling+van+lymfeklierkanker.pdf"
+      ],
+      "pdfs": [
+        "Advies+-+Vergoed+lisocabtagene+maraleucel+(Breyanzi®)+voor+de+behandeling+van+lymfeklierkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-072": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-072",
+      "members": [
+        "Advies+-+vergoed+selumetinib+(Koselugo®)+voor+de+behandeling+van+goedaardige+tumoren+bij+kinderen+met+neurofibromatose+type+1.pdf"
+      ],
+      "pdfs": [
+        "Advies+-+vergoed+selumetinib+(Koselugo®)+voor+de+behandeling+van+goedaardige+tumoren+bij+kinderen+met+neurofibromatose+type+1.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-073": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-073",
+      "members": [
+        "Advies+nivolumab-relatlimab+(Opdualag®)+voor+de+behandeling+van+huidkanker.pdf"
+      ],
+      "pdfs": [
+        "Advies+nivolumab-relatlimab+(Opdualag®)+voor+de+behandeling+van+huidkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-074": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-074",
+      "members": [
+        "Pakketadvies+avalglucosidase+alfa+(Nexviadyme®)+voor+de+behandeling+van+de+ziekte+van+Pompe.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+avalglucosidase+alfa+(Nexviadyme®)+voor+de+behandeling+van+de+ziekte+van+Pompe.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-075": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-075",
+      "members": [
+        "Brief+aan+minister+voor+Medische+Zorg+met+advies+sluisgeneesmiddel+niraparib-abirateron+(Akeega®).pdf"
+      ],
+      "pdfs": [
+        "Brief+aan+minister+voor+Medische+Zorg+met+advies+sluisgeneesmiddel+niraparib-abirateron+(Akeega®).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-076": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-076",
+      "members": [
+        "n+minister+voor+Medische+Zorg+met+Pakketadvies+pegunigalsidase+alfa+(Elfabrio®)+voor+de+behandeling+van+volwasen+patienten+met+de+ziekte+van+Fabry.pdf"
+      ],
+      "pdfs": [
+        "n+minister+voor+Medische+Zorg+met+Pakketadvies+pegunigalsidase+alfa+(Elfabrio®)+voor+de+behandeling+van+volwasen+patienten+met+de+ziekte+van+Fabry.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-078": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-078",
+      "members": [
+        "Addendum+FT-rapport+loncastuximab+tesirine+(Zynlonta).pdf",
+        "Brief+aan+minister+voor+Medische+Zorg+met+Pakketadvies+loncastuximab+tesirine+(Zynlonta®).pdf"
+      ],
+      "pdfs": [
+        "Addendum+FT-rapport+loncastuximab+tesirine+(Zynlonta).pdf",
+        "Brief+aan+minister+voor+Medische+Zorg+met+Pakketadvies+loncastuximab+tesirine+(Zynlonta®).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-079": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-079",
+      "members": [
+        "Pakketadvies+axicabtagene+ciloleucel+(Yescarta®)+voor+de+behandeling+van+lymfeklierkanker+-+herziene+versie.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+axicabtagene+ciloleucel+(Yescarta®)+voor+de+behandeling+van+lymfeklierkanker+-+herziene+versie.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-080": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-080",
+      "members": [
+        "Pakketadvies+herbeoordeling+sacituzumab+govitecan+(Trodelvy®).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+herbeoordeling+sacituzumab+govitecan+(Trodelvy®).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-081": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-081",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+teclistamab+(Tecvayli®).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+teclistamab+(Tecvayli®).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-082": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-082",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+dostarlimab+(Jemperli®)+voor+de+behandeling+van+baarmoederkanker.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+dostarlimab+(Jemperli®)+voor+de+behandeling+van+baarmoederkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-083": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-083",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+etranacogene+dezaparvovec+(Hemgenix®).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+etranacogene+dezaparvovec+(Hemgenix®).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-084": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-084",
+      "members": [
+        "Advies+-+vergoed+cipaglucosidase+alfa+(Pombiliti®)+in+combinatie+met+miglustat+(Opfolda®)+voor+de+behandeling+van+de+ziekte+van+Pompe.pdf"
+      ],
+      "pdfs": [
+        "Advies+-+vergoed+cipaglucosidase+alfa+(Pombiliti®)+in+combinatie+met+miglustat+(Opfolda®)+voor+de+behandeling+van+de+ziekte+van+Pompe.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-085": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-085",
+      "members": [
+        "Advies+mirikizumab+(Omvoh®)+voor+de+behandeling+van+colitis+ulcerosa.pdf"
+      ],
+      "pdfs": [
+        "Advies+mirikizumab+(Omvoh®)+voor+de+behandeling+van+colitis+ulcerosa.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-086": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-086",
+      "members": [
+        "Pakketadvies+bimekizumab+(Bimzelx®)+voor+de+behandeling+van+artritis+psoriatica.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+bimekizumab+(Bimzelx®)+voor+de+behandeling+van+artritis+psoriatica.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-087": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-087",
+      "members": [
+        "Pakketadvies+bimekizumab+(Bimzelx®)+voor+de+behandeling+van+axiale+spondyloartritis.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+bimekizumab+(Bimzelx®)+voor+de+behandeling+van+axiale+spondyloartritis.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-088": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-088",
+      "members": [
+        "Pakketadvies+olipudase+alfa+(Xenpozyme®)+voor+de+behandeling+van+de+ziekte+van+Niemann-Pick.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+olipudase+alfa+(Xenpozyme®)+voor+de+behandeling+van+de+ziekte+van+Niemann-Pick.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-089": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-089",
+      "members": [
+        "Pakketadvies+tebentafusp+(Kimmtrak®)+voor+de+behandeling+van+oogkanker.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+tebentafusp+(Kimmtrak®)+voor+de+behandeling+van+oogkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-090": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-090",
+      "members": [
+        "Advies+lebrikizumab+(Ebglyss®)+voor+de+behandeling+van+matig+tot+ernstig+eczeem.pdf"
+      ],
+      "pdfs": [
+        "Advies+lebrikizumab+(Ebglyss®)+voor+de+behandeling+van+matig+tot+ernstig+eczeem.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-091": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-091",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+olaparib+(Lynparza®)+voor+de+behandeling+van+uitgezaaide+prostaatkanker.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+olaparib+(Lynparza®)+voor+de+behandeling+van+uitgezaaide+prostaatkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-092": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-092",
+      "members": [
+        "Pakketadvies+sluisgeneesmiddel+bimekizumab+(Bimzelx)+voor+de+behandeling+van+hidradenitis+suppurativa+(HS).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+sluisgeneesmiddel+bimekizumab+(Bimzelx)+voor+de+behandeling+van+hidradenitis+suppurativa+(HS).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-093": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-093",
+      "members": [
+        "Pakketadvies+lisocabtagene+maraleucel+(Breyanzi®)+voor+de+behandeling+van+lymfeklierkanker.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+lisocabtagene+maraleucel+(Breyanzi®)+voor+de+behandeling+van+lymfeklierkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-094": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-094",
+      "members": [
+        "Pakketadvies+risankizumab+(Skyrizi®)+voor+de+behandeling+van+colitis+ulcerosa.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+risankizumab+(Skyrizi®)+voor+de+behandeling+van+colitis+ulcerosa.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-095": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-095",
+      "members": [
+        "Pakketadvies+efanesoctocog+alfa+(Altuvoct®)+voor+de+behandeling+van+hemofilie+A.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+efanesoctocog+alfa+(Altuvoct®)+voor+de+behandeling+van+hemofilie+A.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-096": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-096",
+      "members": [
+        "Pakketadvies+brexucabtagene-autoleucel+(Tecartus®)+voor+de+behandeling+van+acute+lymfoblastische+leukemie.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+brexucabtagene-autoleucel+(Tecartus®)+voor+de+behandeling+van+acute+lymfoblastische+leukemie.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-097": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-097",
+      "members": [
+        "Pakketadvies+daratumumab+(Darzalex®)+voor+de+behandeling+van+een+vorm+van+amyloïdose.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+daratumumab+(Darzalex®)+voor+de+behandeling+van+een+vorm+van+amyloïdose.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-098": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-098",
+      "members": [
+        "Pakketadvies+ripretinib+(Qinlock®)+voor+de+behandeling+van+kanker+in+maag+of+darmen.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+ripretinib+(Qinlock®)+voor+de+behandeling+van+kanker+in+maag+of+darmen.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-099": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-099",
+      "members": [
+        "Pakketadvies+ciltacabtagene+autoleucel+Carvykti+voor+de+behandeling+van+MM.pdf",
+        "carvykti-epar-product-information_en.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+ciltacabtagene+autoleucel+Carvykti+voor+de+behandeling+van+MM.pdf",
+        "carvykti-epar-product-information_en.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-100": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-100",
+      "members": [
+        "Pakketadvies+faricimab+(Vabysmo®)+voor+de+behandeling+van+zichtverlies+door+vochtophoping+bij+een+afgesloten+ader+in+het+oog.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+faricimab+(Vabysmo®)+voor+de+behandeling+van+zichtverlies+door+vochtophoping+bij+een+afgesloten+ader+in+het+oog.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-101": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-101",
+      "members": [
+        "Pakketadvies+ublituximab+(Briumvi®)+voor+de+behandeling+van+multiple+sclerose.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+ublituximab+(Briumvi®)+voor+de+behandeling+van+multiple+sclerose.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-102": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-102",
+      "members": [
+        "Pakketadvies+injectie+Pluvicto®+voor+de+behandeling+van+prostaatkanker.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+injectie+Pluvicto®+voor+de+behandeling+van+prostaatkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-103": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-103",
+      "members": [
+        "Pakketadvies+talazoparib+(Talzenna®)+met+enzalutamide+voor+de+behandeling+van+uitgezaaide+prostaatkanker.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+talazoparib+(Talzenna®)+met+enzalutamide+voor+de+behandeling+van+uitgezaaide+prostaatkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-104": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-104",
+      "members": [
+        "Pakketadvies+avapritinib+(Ayvakyt®)+voor+de+behandeling+van+een+zeldzame+bloedziekte.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+avapritinib+(Ayvakyt®)+voor+de+behandeling+van+een+zeldzame+bloedziekte.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-105": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-105",
+      "members": [
+        "Pakketadvies+marstacimab+(Hympavzi®)+voor+de+behandeling+van+hemofilie+A+of+B.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+marstacimab+(Hympavzi®)+voor+de+behandeling+van+hemofilie+A+of+B.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-106": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-106",
+      "members": [
+        "Pakketadvies+mirikizumab+(Omvoh®)+voor+de+behandeling+van+de+ziekte+van+Crohn.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+mirikizumab+(Omvoh®)+voor+de+behandeling+van+de+ziekte+van+Crohn.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-107": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-107",
+      "members": [
+        "Pakketadvies+etrasimod+(Velsipity®)+voor+de+behandeling+van+colitis+ulcerosa.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+etrasimod+(Velsipity®)+voor+de+behandeling+van+colitis+ulcerosa.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-108": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-108",
+      "members": [
+        "Pakketadvies+teclistamab+(Tecvayli®)+voor+de+behandeling+van+multipel+myeloom+(herbeoordeling).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+teclistamab+(Tecvayli®)+voor+de+behandeling+van+multipel+myeloom+(herbeoordeling).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-109": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-109",
+      "members": [
+        "Pakketadvies+abemaciclib+(Verzenios®)+voor+de+behandeling+van+borstkanker+(herbeoordeling).pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+abemaciclib+(Verzenios®)+voor+de+behandeling+van+borstkanker+(herbeoordeling).pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-110": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-110",
+      "members": [
+        "Pakketadvies+idecabtagene+vicleucel+(Abecma®)+voor+de+behandeling+van+multipel+myeloom.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+idecabtagene+vicleucel+(Abecma®)+voor+de+behandeling+van+multipel+myeloom.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-111": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-111",
+      "members": [
+        "Pakketadvies+epcoritamab+(Tepkinly®)+voor+de+behandeling+van+lymfeklierkanker.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+epcoritamab+(Tepkinly®)+voor+de+behandeling+van+lymfeklierkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-112": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-112",
+      "members": [
+        "Pakketadvies+trastuzumab-deruxtecan+(Enhertu®)+voor+de+behandeling+van+borstkanker.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+trastuzumab-deruxtecan+(Enhertu®)+voor+de+behandeling+van+borstkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-113": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-113",
+      "members": [
+        "Pakketadvies+axi-cel+(Yescarta®)+voor+de+behandeling+van+bloedkanker.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies+axi-cel+(Yescarta®)+voor+de+behandeling+van+bloedkanker.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-114": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-114",
+      "members": [
+        "Pakketadvies_sluisgeneesmiddel_guselkumab_Tremfya_voor_colitis_ulcerosa.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies_sluisgeneesmiddel_guselkumab_Tremfya_voor_colitis_ulcerosa.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-115": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-115",
+      "members": [
+        "ecorigeerde+versie+brief+aan+de+minister+van+Volksgezondheid+Welzijn+en+Sport+betreft+pakketadvies+elranatamab+(Elrexfio)+en+talquetamab+(Talvey)_.pdf"
+      ],
+      "pdfs": [
+        "ecorigeerde+versie+brief+aan+de+minister+van+Volksgezondheid+Welzijn+en+Sport+betreft+pakketadvies+elranatamab+(Elrexfio)+en+talquetamab+(Talvey)_.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-116": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-116",
+      "members": [
+        "pakketadvies-sluisgeneesmiddel-exagamglogene-autotemcel-casgevy-voor-de-behandeling-van-erfelijke-bloedarmoede.pdf"
+      ],
+      "pdfs": [
+        "pakketadvies-sluisgeneesmiddel-exagamglogene-autotemcel-casgevy-voor-de-behandeling-van-erfelijke-bloedarmoede.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-117": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-117",
+      "members": [
+        "pakketadvies-sluisgeneesmiddel-guselkumab-tremfya-voor-de-ziekte-van-crohn.pdf"
+      ],
+      "pdfs": [
+        "pakketadvies-sluisgeneesmiddel-guselkumab-tremfya-voor-de-ziekte-van-crohn.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-118": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-118",
+      "members": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-enfortumab-vedotin-padcev.pdf"
+      ],
+      "pdfs": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-enfortumab-vedotin-padcev.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-119": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-119",
+      "members": [
+        "pakketadvies-sluisgeneesmiddel-alectinib-alecensa-voor-niet-kleincellige-longkanker-nsclc.pdf"
+      ],
+      "pdfs": [
+        "pakketadvies-sluisgeneesmiddel-alectinib-alecensa-voor-niet-kleincellige-longkanker-nsclc.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-120": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-120",
+      "members": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-herbeoordeling-ripretinib-qinlock.pdf"
+      ],
+      "pdfs": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-herbeoordeling-ripretinib-qinlock.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-121": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-121",
+      "members": [
+        "pakketadvies-ravulizumab-ultomiris-bij-nmosd.pdf"
+      ],
+      "pdfs": [
+        "pakketadvies-ravulizumab-ultomiris-bij-nmosd.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-122": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-122",
+      "members": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-ravulizumab-ultomiris-bij-ahus.pdf"
+      ],
+      "pdfs": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-ravulizumab-ultomiris-bij-ahus.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-123": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-123",
+      "members": [
+        "pakketadvies-sluisgeneesmiddel-upadacitinib-rinvoq-voor-de-behandeling-van-ontstoken-bloedvaten.pdf"
+      ],
+      "pdfs": [
+        "pakketadvies-sluisgeneesmiddel-upadacitinib-rinvoq-voor-de-behandeling-van-ontstoken-bloedvaten.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-124": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-124",
+      "members": [
+        "pakketadvies-sluisgeneesmiddel-nemolizumab-nemluvio-voor-de-behandeling-van-matig-tot-ernstige-huidaandoeningen.pdf"
+      ],
+      "pdfs": [
+        "pakketadvies-sluisgeneesmiddel-nemolizumab-nemluvio-voor-de-behandeling-van-matig-tot-ernstige-huidaandoeningen.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-125": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-125",
+      "members": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-osimertinib-tagrisso-lokaal-gevorderde-nsclc.pdf"
+      ],
+      "pdfs": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-osimertinib-tagrisso-lokaal-gevorderde-nsclc.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-126": {
+      "bron_url": null,
+      "duplicate": true,
+      "id": "INT-126",
+      "members": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-tislelizumab-tevimbra-bij-nsclc-vanaf-2l.pdf"
+      ],
+      "pdfs": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-tislelizumab-tevimbra-bij-nsclc-vanaf-2l.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip",
+        "INT-138.zip"
+      ]
+    },
+    "INT-127": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-127",
+      "members": [
+        "pakketadvies-glofitamab-columvi-icm-gemcitabine-enoxaliplatine-gemox-bij-dlbcl.pdf",
+        "reactie-op-verzoek-aangepaste-base-case-glofit-gemox.pdf"
+      ],
+      "pdfs": [
+        "pakketadvies-glofitamab-columvi-icm-gemcitabine-enoxaliplatine-gemox-bij-dlbcl.pdf",
+        "reactie-op-verzoek-aangepaste-base-case-glofit-gemox.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-128": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-128",
+      "members": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-lecanemab-leqembi-voor-alzheimer.pdf"
+      ],
+      "pdfs": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-lecanemab-leqembi-voor-alzheimer.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-129": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-129",
+      "members": [
+        "pakketadvies-exa-cel-casgevy-bij-sikkelcelziekte.pdf"
+      ],
+      "pdfs": [
+        "pakketadvies-exa-cel-casgevy-bij-sikkelcelziekte.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-130": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-130",
+      "members": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-ipilimumab-icm-nivolumab-yervoy-en-opdivo-bij-dmmr-msih-colorectaalcarcinoom.pdf"
+      ],
+      "pdfs": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-ipilimumab-icm-nivolumab-yervoy-en-opdivo-bij-dmmr-msih-colorectaalcarcinoom.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-131": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-131",
+      "members": [
+        "pakketadvies-herbeoordeling-sluisgeneesmiddel-venetoclax-venclyxto-voor-chronische-lymfatische-leukemie-cll.pdf"
+      ],
+      "pdfs": [
+        "pakketadvies-herbeoordeling-sluisgeneesmiddel-venetoclax-venclyxto-voor-chronische-lymfatische-leukemie-cll.pdf"
+      ],
+      "zip": "INT-138.zip",
+      "zips": [
+        "INT-138.zip"
+      ]
+    },
+    "INT-132": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-132",
+      "members": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-osimertinib-chemo-tagrisso-bij-egfr-nsclc.pdf"
+      ],
+      "pdfs": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-osimertinib-chemo-tagrisso-bij-egfr-nsclc.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-133": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-133",
+      "members": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-serplulimab-hetronifly-es-lslc.pdf"
+      ],
+      "pdfs": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-serplulimab-hetronifly-es-lslc.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-134": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-134",
+      "members": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-durvalumab-imfinzi-bij-es-sclc.pdf"
+      ],
+      "pdfs": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-durvalumab-imfinzi-bij-es-sclc.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-135": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-135",
+      "members": [
+        "pakketadvies-trastuzumab-deruxtecan-enhertu-her2-pos-adenocarcinoom-van-de-maag-of-gastro-oesofageale-overgang.pdf"
+      ],
+      "pdfs": [
+        "pakketadvies-trastuzumab-deruxtecan-enhertu-her2-pos-adenocarcinoom-van-de-maag-of-gastro-oesofageale-overgang.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-136": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-136",
+      "members": [
+        "rectificatie-pakketadvies-isatuximab-sarclisa-i-c-m-bortezomib-lenalidomide-en-dexamethason.pdf"
+      ],
+      "pdfs": [
+        "rectificatie-pakketadvies-isatuximab-sarclisa-i-c-m-bortezomib-lenalidomide-en-dexamethason.pdf"
+      ],
+      "zip": "INT-138.zip",
+      "zips": [
+        "INT-138.zip"
+      ]
+    },
+    "INT-138": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-138",
+      "members": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-pakketadvies-cilta-cel-carvykti-bij-multipel-myeloom-herziening-fe-002-002.pdf",
+        "carvykti-epar-product-information_en.pdf"
+      ],
+      "pdfs": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-pakketadvies-cilta-cel-carvykti-bij-multipel-myeloom-herziening-fe-002-002.pdf",
+        "carvykti-epar-product-information_en.pdf"
+      ],
+      "zip": "INT-138.zip",
+      "zips": [
+        "INT-138.zip"
+      ]
+    },
+    "INT-139": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-139",
+      "members": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-durvalumab-imfinzi-icm-tremelimumab-imjudo-bi-003.pdf"
+      ],
+      "pdfs": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-durvalumab-imfinzi-icm-tremelimumab-imjudo-bi-003.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-141": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-141",
+      "members": [
+        "ister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-amivantamab-i-c-m-lazertinib-rybrevant-i-c-m-lazcluze-bij-nsclc-egfr-exon-19-en-21.pdf"
+      ],
+      "pdfs": [
+        "ister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-amivantamab-i-c-m-lazertinib-rybrevant-i-c-m-lazcluze-bij-nsclc-egfr-exon-19-en-21.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-143": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-143",
+      "members": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-durvalumab-imfinzi-kleincellig-longkanker-002.pdf"
+      ],
+      "pdfs": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-durvalumab-imfinzi-kleincellig-longkanker-002.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-144": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-144",
+      "members": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-darolutamide-icm-adt-bij-mhspc-002.pdf"
+      ],
+      "pdfs": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-darolutamide-icm-adt-bij-mhspc-002.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-145": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-145",
+      "members": [
+        "-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-ipilimumab-i-c-m-nivolumab-yervoy-en-opdivo-bij-maligne-peritoneaal-mesothelioon-mpm.pdf"
+      ],
+      "pdfs": [
+        "-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-ipilimumab-i-c-m-nivolumab-yervoy-en-opdivo-bij-maligne-peritoneaal-mesothelioon-mpm.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-148": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-148",
+      "members": [
+        "an-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-sluisgeneesmiddel-belzutifan-welireg-voor-de-ziekte-van-hippel-lindau-vhl.pdf"
+      ],
+      "pdfs": [
+        "an-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-sluisgeneesmiddel-belzutifan-welireg-voor-de-ziekte-van-hippel-lindau-vhl.pdf"
+      ],
+      "zip": "INT-001.zip",
+      "zips": [
+        "INT-001.zip"
+      ]
+    },
+    "INT-153": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-153",
+      "members": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-inavolisib-itovebi.pdf"
+      ],
+      "pdfs": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-inavolisib-itovebi.pdf"
+      ],
+      "zip": "INT-138.zip",
+      "zips": [
+        "INT-138.zip"
+      ]
+    },
+    "INT-160": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-160",
+      "members": [
+        "Pakketadvies multipel myeloom 2025.pdf"
+      ],
+      "pdfs": [
+        "Pakketadvies multipel myeloom 2025.pdf"
+      ],
+      "zip": "INT-138.zip",
+      "zips": [
+        "INT-138.zip"
+      ]
+    },
+    "INT-161": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-161",
+      "members": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-daratumumab-darzalex-dvrd-mm.pdf"
+      ],
+      "pdfs": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-daratumumab-darzalex-dvrd-mm.pdf"
+      ],
+      "zip": "INT-138.zip",
+      "zips": [
+        "INT-138.zip"
+      ]
+    },
+    "INT-162": {
+      "bron_url": null,
+      "duplicate": false,
+      "id": "INT-162",
+      "members": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-daratumumab-bij-amyloidose.pdf"
+      ],
+      "pdfs": [
+        "brief-aan-de-minister-van-volksgezondheid-welzijn-en-sport-betreft-pakketadvies-daratumumab-bij-amyloidose.pdf"
+      ],
+      "zip": "INT-138.zip",
+      "zips": [
+        "INT-138.zip"
+      ]
+    }
+  },
+  "track": "Intramuraal",
+  "track_nl": "Sluis / ziekenhuisvergoeding"
+}
