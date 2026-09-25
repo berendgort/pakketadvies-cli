@@ -18,8 +18,8 @@ __all__ = ("render_cite", "render_show")
 
 def _print_source(src: SourceRef) -> None:
     console.print(
-        f"[bold]document[/bold]: {src.document or '—'}  "
-        f"[bold]locator[/bold]: {src.locator or '—'}"
+        f"[bold]document[/bold]: {src.document or '-'}  "
+        f"[bold]locator[/bold]: {src.locator or '-'}"
     )
     if src.url:
         console.print(f"[bold]official URL[/bold]: {src.url}")
@@ -78,7 +78,7 @@ def render_cite(report: CiteReport) -> None:
     top = report.shortlist[0]
     console.print(
         f"[bold]{top.id}[/bold] · {top.dossier_id} · "
-        f"{top.advice_date or 'no date'} · {top.weight or '—'}"
+        f"{top.advice_date or 'no date'} · {top.weight or '-'}"
     )
     if top.precedent:
         console.print(f"[bold]precedent[/bold]: {top.precedent}")

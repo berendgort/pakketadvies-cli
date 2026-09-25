@@ -1,4 +1,4 @@
-"""CLI envelope smoke tests."""
+"""CLI envelope smoke tests against the real ZIN corpus."""
 
 from __future__ import annotations
 
@@ -25,5 +25,83 @@ def test_cite_json_real_corpus() -> None:
     assert result.exit_code == 0, result.stdout + result.stderr
     body = json.loads(result.stdout)
     assert body["ok"] is True
-    assert body["data"]["verdict"] in {"cite", "thin", "none", "ambiguous"}
+    assert body["data"]["verdict"] == "cite"
     assert "as_of" in body["data"]
+    shortlist = body["data"]["shortlist"]
+    assert shortlist
+    top = shortlist[0]
+    assert top["source"] is not None
+    assert top["source"]["url"]
+    verbatim = top["source"].get("verbatim")
+    paraphrase = top["source"].get("paraphrase")
+    if verbatim is not None:
+        assert verbatim != paraphrase
+
+
+def test_cite_none_for_nonsense_query() -> None:
+    result = runner.invoke(app, ["cite", "zzzz-no-such-topic-xyzzy", "--json"])
+    assert result.exit_code == 0, result.stdout + result.stderr
+    body = json.loads(result.stdout)
+    assert body["ok"] is True
+    assert body["data"]["verdict"] == "none"
+    assert body["data"]["shortlist"] == []
+
+
+def test_cite_pembrolizumab_is_ambiguous() -> None:
+    result = runner.invoke(app, ["cite", "pembrolizumab", "--json"])
+    assert result.exit_code != 0
+    body = json.loads(result.stdout)
+    assert body["ok"] is False
+    assert body["error_type"] == "ambiguous"
+    assert len(body["candidates"]) > 1
+
+
+def test_show_prefixed_and_bare_arg() -> None:
+    prefixed = runner.invoke(app, ["show", "zin:ARG-0326", "--json"])
+    bare = runner.invoke(app, ["show", "ARG-0326", "--json"])
+    assert prefixed.exit_code == 0, prefixed.stdout + prefixed.stderr
+    assert bare.exit_code == 0, bare.stdout + bare.stderr
+    p = json.loads(prefixed.stdout)["data"]
+    b = json.loads(bare.stdout)["data"]
+    assert p["id"] == b["id"] == "zin:ARG-0326"
+    assert p["source"]["quotation"] is None
+
+
+def test_show_missing_id_not_found() -> None:
+    result = runner.invoke(app, ["show", "ARG-999999", "--json"])
+    assert result.exit_code != 0
+    body = json.loads(result.stdout)
+    assert body["ok"] is False
+    assert body["error_type"] == "not_found"
+
+
+def test_cite_empty_query_invalid() -> None:
+    result = runner.invoke(app, ["cite", "   ", "--json"])
+    assert result.exit_code != 0
+    body = json.loads(result.stdout)
+    assert body["ok"] is False
+    assert body["error_type"] == "invalid"
+
+
+def test_cite_thema_no_match_is_none() -> None:
+    result = runner.invoke(
+        app,
+        ["cite", "pembrolizumab", "--thema", "zzzz-no-such-theme", "--json"],
+    )
+    assert result.exit_code == 0, result.stdout + result.stderr
+    body = json.loads(result.stdout)
+    assert body["ok"] is True
+    assert body["data"]["verdict"] == "none"
+    assert body["data"]["shortlist"] == []
+
+
+def test_human_cite_prints_verdict() -> None:
+    result = runner.invoke(app, ["cite", "extern controlecohort"])
+    assert result.exit_code == 0, result.stdout + result.stderr
+    assert "CITE" in result.stdout
+
+
+def test_human_show_prints_id() -> None:
+    result = runner.invoke(app, ["show", "zin:ARG-0326"])
+    assert result.exit_code == 0, result.stdout + result.stderr
+    assert "zin:ARG-0326" in result.stdout

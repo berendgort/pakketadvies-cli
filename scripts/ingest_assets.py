@@ -17,7 +17,6 @@ import argparse
 import json
 import re
 import shutil
-import sys
 import tempfile
 import zipfile
 from datetime import date, datetime

@@ -2,7 +2,11 @@
 
 from __future__ import annotations
 
-from pakketadvies.core.exceptions import PakketAmbiguousError, PakketIncompleteError
+from pakketadvies.core.exceptions import (
+    PakketAmbiguousError,
+    PakketIncompleteError,
+    PakketNotFoundError,
+)
 from pakketadvies.data.load import Corpus, list_authorities, load_corpus
 from pakketadvies.decide.cite import cite as cite_pure
 from pakketadvies.decide.show import show_argument, show_dossier
@@ -97,9 +101,9 @@ def show_record(
     if upper.startswith(("INT-", "GVS-")):
         try:
             return as_show_dos(show_dossier(corpus.dossiers, raw_id))
-        except Exception:
+        except PakketNotFoundError:
             pass
     try:
         return as_show_arg(show_argument(corpus.arguments, raw_id))
-    except Exception:
+    except PakketNotFoundError:
         return as_show_dos(show_dossier(corpus.dossiers, raw_id))
