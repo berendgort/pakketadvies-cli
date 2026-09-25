@@ -11,8 +11,13 @@ from pakketadvies.models.verdict import CiteReport, CiteRow, SourceRef
 
 __all__ = (
     "attach_sources_to_report",
+    "attach_sources_to_rows",
     "source_for_argument",
     "source_for_dossier",
+)
+
+_MISSING_EXTRACT = (
+    "No text extract on disk for this dossier; use source.url and source.pdf."
 )
 
 
@@ -59,12 +64,9 @@ def _pick_path(
     if len(winners) == 1:
         return winners[0], None
     paths = [s.path for s in candidates if s.path]
-    if best_score == 0 or len(winners) != 1:
-        return None, "Multiple local files; no unique match for source_label: " + "; ".join(
-            paths
-        )
-    return winners[0], None
-
+    return None, "Multiple local files; no unique match for source_label: " + "; ".join(
+        paths
+    )
 
 def _index_sources(
     sources: list[SourceDoc],
@@ -125,19 +127,12 @@ def source_for_argument(
                     f"on disk: {extract}"
                 )
         elif not bucket["txt"]:
-            notes.append(
-                "No text extract on disk for this dossier; use source.url and "
-                "source.pdf."
-            )
-        elif ext_note:
-            pass  # already noted ambiguity
-        else:
-            notes.append(
-                "No text extract on disk for this dossier; use source.url and "
-                "source.pdf."
-            )
-    elif not bucket["txt"] and include_verbatim is False:
-        pass
+            notes.append(_MISSING_EXTRACT)
+        elif not ext_note:
+            notes.append(_MISSING_EXTRACT)
+    elif not bucket["txt"]:
+        # Later rows skip zip reads; still surface missing-extract (field-test).
+        notes.append(_MISSING_EXTRACT)
 
     note = " ".join(notes) if notes else None
     paraphrase = arg.text.strip() or None
@@ -197,6 +192,37 @@ def source_for_dossier(
     )
 
 
+def attach_sources_to_rows(
+    rows: list[CiteRow],
+    *,
+    arguments: list[Argument],
+    dossiers: list[Dossier],
+    sources: list[SourceDoc],
+    verbatim_on_first: bool = True,
+) -> list[CiteRow]:
+    """Attach SourceRef onto cite rows or ambiguous candidates."""
+    if not rows:
+        return rows
+    args_by_id = {a.id: a for a in arguments}
+    dos_by_native = {d.native_id: d for d in dossiers}
+    enriched: list[CiteRow] = []
+    for i, row in enumerate(rows):
+        arg = args_by_id.get(row.id)
+        if arg is None:
+            enriched.append(row)
+            continue
+        dossier = dos_by_native.get(arg.dossier_id)
+        include_verbatim = bool(verbatim_on_first and i == 0)
+        src = source_for_argument(
+            arg,
+            dossier=dossier,
+            sources=sources,
+            include_verbatim=include_verbatim,
+        )
+        enriched.append(row.model_copy(update={"source": src}))
+    return enriched
+
+
 def attach_sources_to_report(
     report: CiteReport,
     *,
@@ -206,20 +232,11 @@ def attach_sources_to_report(
 ) -> CiteReport:
     if not report.shortlist:
         return report
-    args_by_id = {a.id: a for a in arguments}
-    dos_by_native = {d.native_id: d for d in dossiers}
-    enriched: list[CiteRow] = []
-    for i, row in enumerate(report.shortlist):
-        arg = args_by_id.get(row.id)
-        if arg is None:
-            enriched.append(row)
-            continue
-        dossier = dos_by_native.get(arg.dossier_id)
-        src = source_for_argument(
-            arg,
-            dossier=dossier,
-            sources=sources,
-            include_verbatim=(i == 0),
-        )
-        enriched.append(row.model_copy(update={"source": src}))
+    enriched = attach_sources_to_rows(
+        report.shortlist,
+        arguments=arguments,
+        dossiers=dossiers,
+        sources=sources,
+        verbatim_on_first=True,
+    )
     return report.model_copy(update={"shortlist": enriched})

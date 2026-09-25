@@ -85,3 +85,20 @@ def test_missing_date_cannot_win_cite() -> None:
     assert report.verdict == "thin"
     assert report.shortlist[0].id == "zin:ARG-1"
     assert report.shortlist[0].advice_date is None
+
+
+def test_shortlist_capped_with_why_note() -> None:
+    rows = [
+        _arg(
+            f"ARG-{i:04d}",
+            date=f"20{10 + i // 12:02d}-{(i % 12) + 1:02d}-01",
+            weight="Doorslaggevend",
+            text="extern controlecohort",
+            dossier=f"INT-{i}",
+        )
+        for i in range(40)
+    ]
+    report = cite(rows, CODE, META, "extern controlecohort")
+    assert report.verdict == "cite"
+    assert len(report.shortlist) == 25
+    assert "Showing top 25 of 40 matches" in report.why

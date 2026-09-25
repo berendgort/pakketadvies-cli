@@ -12,6 +12,7 @@ from pakketadvies.decide.cite import cite as cite_pure
 from pakketadvies.decide.show import show_argument, show_dossier
 from pakketadvies.decide.source_attach import (
     attach_sources_to_report,
+    attach_sources_to_rows,
     source_for_argument,
     source_for_dossier,
 )
@@ -55,15 +56,27 @@ def cite_query(
     traject: str | None = None,
 ) -> CiteReport:
     corpus = resolve_authority(authority)
-    report = cite_pure(
-        corpus.arguments,
-        corpus.codebook,
-        corpus.meta,
-        query,
-        theme=theme,
-        line=line,
-        traject=traject,
-    )
+    try:
+        report = cite_pure(
+            corpus.arguments,
+            corpus.codebook,
+            corpus.meta,
+            query,
+            theme=theme,
+            line=line,
+            traject=traject,
+        )
+    except PakketAmbiguousError as exc:
+        # Field-test: ambiguous candidates must carry source blocks so writers
+        # can pick without a second show.
+        enriched = attach_sources_to_rows(
+            list(exc.candidates),
+            arguments=corpus.arguments,
+            dossiers=corpus.dossiers,
+            sources=corpus.sources,
+            verbatim_on_first=False,
+        )
+        raise PakketAmbiguousError(str(exc), candidates=enriched) from exc
     return attach_sources_to_report(
         report,
         arguments=corpus.arguments,

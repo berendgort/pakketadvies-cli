@@ -54,6 +54,39 @@ def test_cite_pembrolizumab_is_ambiguous() -> None:
     assert body["ok"] is False
     assert body["error_type"] == "ambiguous"
     assert len(body["candidates"]) > 1
+    # Field-test: candidates must carry source so writers need no extra show.
+    assert body["candidates"][0]["source"] is not None
+    assert body["candidates"][0]["source"]["url"]
+
+
+def test_cite_nivolumab_does_not_call_unrelated_drug() -> None:
+    result = runner.invoke(app, ["cite", "nivolumab", "--json"])
+    body = json.loads(result.stdout)
+    if body.get("ok"):
+        top = body["data"]["shortlist"][0]
+        assert top["substance"].casefold() == "nivolumab"
+    else:
+        assert body["error_type"] == "ambiguous"
+        assert all(
+            c["substance"].casefold() == "nivolumab" for c in body["candidates"]
+        )
+
+
+def test_cite_single_char_invalid() -> None:
+    result = runner.invoke(app, ["cite", "a", "--json"])
+    assert result.exit_code != 0
+    body = json.loads(result.stdout)
+    assert body["ok"] is False
+    assert body["error_type"] == "invalid"
+
+
+def test_cite_gvs_shortlist_capped() -> None:
+    result = runner.invoke(app, ["cite", "GVS", "--traject", "GVS", "--json"])
+    assert result.exit_code == 0, result.stdout + result.stderr
+    body = json.loads(result.stdout)
+    assert body["data"]["verdict"] == "cite"
+    assert len(body["data"]["shortlist"]) <= 25
+    assert "Showing top" in body["data"]["why"]
 
 
 def test_show_prefixed_and_bare_arg() -> None:

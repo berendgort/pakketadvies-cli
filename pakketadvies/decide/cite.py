@@ -11,11 +11,22 @@ from pakketadvies.decide.rank import (
 from pakketadvies.models.argument import Argument, AuthorityMeta, Codebook
 from pakketadvies.models.verdict import CiteReport, CiteRow
 
-__all__ = ("cite",)
+__all__ = ("SHORTLIST_CAP", "cite")
+
+# Cap JSON/MCP shortlists (field-test: cite "GVS" returned 596 rows).
+SHORTLIST_CAP = 25
 
 
 def _rows(args: list[Argument]) -> list[CiteRow]:
     return [CiteRow.from_argument(a) for a in args]
+
+
+def _cap_shortlist(ranked: list[Argument], why: str) -> tuple[list[CiteRow], str]:
+    total = len(ranked)
+    shortlist = _rows(ranked[:SHORTLIST_CAP])
+    if total > SHORTLIST_CAP:
+        why = f"{why} Showing top {SHORTLIST_CAP} of {total} matches."
+    return shortlist, why
 
 
 def cite(
@@ -45,7 +56,6 @@ def cite(
         )
 
     ranked = rank_arguments(matched, codebook)
-    shortlist = _rows(ranked)
     top = ranked[0]
     best = top_weight(codebook)
 
@@ -64,23 +74,27 @@ def cite(
         )
 
     if top.weight == best and top.advice_date is not None:
+        why = (
+            f"Earliest {best} match is {top.id} "
+            f"({top.dossier_id}, {top.advice_date})."
+        )
+        shortlist, why = _cap_shortlist(ranked, why)
         return CiteReport(
             verdict="cite",
-            why=(
-                f"Earliest {best} match is {top.id} "
-                f"({top.dossier_id}, {top.advice_date})."
-            ),
+            why=why,
             as_of=meta.as_of,
             authority=meta.id,
             shortlist=shortlist,
         )
 
+    why = (
+        "Best match is not a unique top-weight citation "
+        f"(weight={top.weight or 'empty'}, date={top.advice_date or 'missing'})."
+    )
+    shortlist, why = _cap_shortlist(ranked, why)
     return CiteReport(
         verdict="thin",
-        why=(
-            "Best match is not a unique top-weight citation "
-            f"(weight={top.weight or 'empty'}, date={top.advice_date or 'missing'})."
-        ),
+        why=why,
         as_of=meta.as_of,
         authority=meta.id,
         shortlist=shortlist,

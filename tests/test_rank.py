@@ -90,3 +90,46 @@ def test_id_is_final_tiebreak() -> None:
     ]
     ranked = rank_arguments(rows, CODE)
     assert [a.id for a in ranked] == ["zin:ARG-1", "zin:ARG-2"]
+
+
+def test_single_char_query_rejected() -> None:
+    with pytest.raises(ValueError, match="at least 2 characters"):
+        filter_arguments([_arg("ARG-1")], "a")
+
+
+def test_alphanumeric_token_needs_word_boundary() -> None:
+    rows = [_arg("ARG-1", text="traanaanmaakdeficiëntie zonder NMA")]
+    assert filter_arguments(rows, "nmaa") == []
+    assert [a.id for a in filter_arguments(rows, "nma")] == ["zin:ARG-1"]
+
+
+def test_identity_match_beats_precedent_mention() -> None:
+    """cite nivolumab must not call a drug that only mentions it in precedent."""
+    panitumumab = Argument(
+        authority="zin",
+        id="zin:ARG-1",
+        native_id="ARG-1",
+        dossier_id="INT-1",
+        advice_date="2015-01-01",
+        substance="panitumumab",
+        brand="Vectibix",
+        theme="Prijs",
+        weight="Doorslaggevend",
+        text="KEA overbodig bij OS-winst",
+        precedent="Later verlegd door nivolumab in de sluis.",
+    )
+    nivolumab = Argument(
+        authority="zin",
+        id="zin:ARG-2",
+        native_id="ARG-2",
+        dossier_id="INT-2",
+        advice_date="2016-01-01",
+        substance="nivolumab",
+        brand="Opdivo",
+        theme="Prijs",
+        weight="Doorslaggevend",
+        text="nivolumab prijsarrangement",
+        precedent="earliest Opdivo price call",
+    )
+    hits = filter_arguments([panitumumab, nivolumab], "nivolumab")
+    assert [a.id for a in hits] == ["zin:ARG-2"]
