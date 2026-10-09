@@ -42,3 +42,7 @@ Every session:
 
 - Prefer files under `assets/zin/`. New drops go in `assets/drop/` then
   `python scripts/ingest_assets.py` (maintainer). Never scrape ZIN.
+
+## Playbook
+
+- [`docs/cli_playbook.md`](docs/cli_playbook.md) — how this stack was built; rate limits and stop rules
